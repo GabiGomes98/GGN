@@ -1,0 +1,13 @@
+programa {
+inclua biblioteca Matematica --> mat
+
+inteiro forca_e_velocidade[3][2]
+forca_e_velocidade[0][0] = forca_x
+forca_e_velocidade[1][0] = forca_y
+forca_e_velocidade[2][0] = forca_z
+
+forca_e_velocidade[0][0] = velocidade_x
+forca_e_velocidade[1][1] = velocidade_y
+forca_e_velocidade[2][2] = velocidade_z
+  }
+}
