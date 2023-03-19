@@ -1,0 +1,17 @@
+programa {
+  funcao inicio() {
+  inteiro x1, x2
+  real area
+
+  x1 = 2
+  x2 = 5
+  escreva("Area de ", x1, " por ", x2, " é ", area_quadrado(x1, x2))
+
+}
+
+  funcao real area_quadrado(inteiro altura, inteiro base) {
+  real area
+  area = altura * base
+  retorne area
+  }
+}
