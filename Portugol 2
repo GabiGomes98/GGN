@@ -1,0 +1,15 @@
+programa {
+  funcao inicio() {
+    
+    inteiro num, fatorial, i 
+    num = 7
+
+    i = num
+    fatorial = 1
+
+    enquanto (i > 1){
+        fatorial = fatorial * i 
+        i = i  - 1  
+    }
+    escreva (fatorial)
+}
