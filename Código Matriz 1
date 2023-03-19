@@ -9,5 +9,16 @@ forca_e_velocidade[2][0] = forca_z
 forca_e_velocidade[0][0] = velocidade_x
 forca_e_velocidade[1][1] = velocidade_y
 forca_e_velocidade[2][2] = velocidade_z
+
+inteiro l, c, mat[3][2] = {{34,56},{87,90},{25,58}}
+
+para(l = 0; l < 3; l++){ // índice das linhas
+para(c = 0; c < 2; c++){ // imprime a linha saltando as
+colunas
+escreva(mat[l][c], " ") // imprime os elementos da matriz
+na posição l c
+}
+escreva("\n") // para saltar uma linha
+}
   }
 }
