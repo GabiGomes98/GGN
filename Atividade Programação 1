@@ -1,0 +1,29 @@
+//Variavel Portugol
+
+programa
+{
+	funcao inicio()
+	
+	{
+		inteiro m1, m2, soma, media
+		
+		escreva ("Informe a media 1: ")
+		leia (m1)
+		
+		escreva ("Informe a media 2: ")
+		leia (m2)
+		
+		soma = m1 + m2 
+		escreva ("a soma de " , m1, "+" ,m2, " = ",soma)
+		
+		// calculo da media 
+		media = (m1+m2)/2
+		
+		se (media >= 5) {
+			escreva ("Voce passou de ano!")
+		}
+		senao {
+			escreva ("Infelizmente nao passou de ano")
+		}
+	}
+}
