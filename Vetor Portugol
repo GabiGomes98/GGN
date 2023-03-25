@@ -1,0 +1,41 @@
+programa 
+{
+	funcao inicio(){
+
+inteiro qtd = 0 	
+inteiro i, pares = 0, impares = 0, cont = 1 
+
+escreva ("\nInforme a quantidade de valores que deseja digitar: ") 	
+leia (qtd) 	
+
+inteiro valores[qtd] 	 
+
+para (i = 0; i < qtd; i++ ) { 		
+	escreva ("\nEntre com o ", cont, "º valor ") 
+	leia(valores[i]) 	
+	
+	cont++ 	
+	
+} 
+	
+	para (i = 0; i < qtd; i++ ) { 		 		
+		
+		se (valores[i] % 2 == 0) { 		
+			pares++ 		
+			
+		} senao { 		
+			impares++ 	
+			} 	
+		
+	} 	
+	
+	escreva ("\nDos valores informados ", pares, " são pares e ", impares," são impares.\n")
+	  
+	  
+	  
+	  }
+	 }
+	 
+	 
+	 Fonte:
+         https://github.com/UNIVALI-LITE/Portugol-Studio/issues/211
