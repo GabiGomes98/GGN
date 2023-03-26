@@ -3,7 +3,13 @@ programa {
 
   funcao inicio() {
     inteiro tamanho_vetor, i, vetor_forca[3]
-  real modulo
+    real modulo
+    
+inteiro forca[3]
+  forca[0] = x
+  forca[1] = y
+  forca[2] = z
+
   tamanho_vetor = 3
   vetor_forca[0] = 1
   vetor_forca[1] = 5
