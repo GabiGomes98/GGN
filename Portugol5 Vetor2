@@ -1,20 +1,21 @@
 programa {
   inclua biblioteca Matematica --> mat
-  
-  funcao inicio () {
-      inteiro tamanho_vetor , i, vetor_forca[3]
-      real modulo 
-tamanho_vetor = 3
-vetor_forca[0] = 1
-vetor_forca[1] = 5
-vetor_forca[2] = 8
 
-  modulo = 0 
-  para(i=0; i<tamanho_vetor; i+=){
-  modulo = modulo + (vetor_forca[i] * vetor_forca[i])
-  }
-  modulo = mat.raiz(modulo, 2)
-  escreva(modulo)
-    }
-  }
- 
+  funcao inicio() {
+    inteiro tamanho_vetor, i, vetor_forca[3]
+  real modulo
+  tamanho_vetor = 3
+  vetor_forca[0] = 1
+  vetor_forca[1] = 5
+  vetor_forca[2] = 8
+
+  modulo = 0
+  para(i=0; i<tamanho_vetor; i++){
+    modulo = modulo + (vetor_forca[i] * vetor_forca[i])
+}
+modulo = mat.raiz(modulo, 2)
+escreva(modulo)
+}
+
+*9.486832980505138*
+*Programa finalizado. Tempo de execução: 81 ms*
