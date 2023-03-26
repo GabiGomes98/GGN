@@ -1,0 +1,16 @@
+programa {
+  
+	funcao inicio(){
+
+vetor [2] = vetor [0] + vetor [1]
+vetor [3] = vetor [1] + vetor [2]
+vetor [4] = vetor [2] + vetor [3]
+vetor [5] = vetor [3] + vetor [4]
+vetor [6] = vetor [4] + vetor [5]
+
+para (inteiro i=1; i=7, i++)
+  vetor [i + 1] = vetor[i - 1] + vetor[i]
+
+    escreva (vetor[i + 1], "\n")
+	}
+}
