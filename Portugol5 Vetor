@@ -18,6 +18,11 @@ inteiro forca[3]
   modulo = 0
   para(i=0; i<tamanho_vetor; i++){
     modulo = modulo + (vetor_forca[i] * vetor_forca[i])
+    modulo = modulo[0] + (vetor_forca[1] * vetor_forca[2])
+    modulo = modulo[0] = 1 + (vetor_forca[1] = 5 * vetor_forca[2] = 8) 
+    modulo = 1 + 5 * 8
+    modulo = 48
+       
 }
 modulo = mat.raiz(modulo, 2)
 escreva(modulo)
