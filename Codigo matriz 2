@@ -1,0 +1,10 @@
+inteiro l, c, mat[3][2] = {{34,56},{87,90},{25,58}}
+
+para(l = 0; l < 3; l++){ // índice das linhas
+para(c = 0; c < 2; c++){ // imprime a linha saltando as
+colunas
+escreva(mat[l][c], " ") // imprime os elementos da matriz
+na posição l c
+}
+escreva("\n") // para saltar uma linha
+}
