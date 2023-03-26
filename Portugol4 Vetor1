@@ -1,9 +1,0 @@
-programa {
-  funcao inicio() {
-    
-inteiro forca[3]
-  forca[0] = x
-  forca[1] = y
-  forca[2] = z
-  }
-}
