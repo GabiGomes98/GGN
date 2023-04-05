@@ -1,82 +1,70 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currículo</title>
+ <style>  
+   
+       
+     h2{
+         width: 300px;
+         height: 10Px;
+         background-color: yellow;
+         border-width: 0px;
+         border-style: solid;
+         border-color: light gray;
+         padding: 10px;
+         outline-width: 0px;
+         outline-style: solid;
+         outline-color: light gray;
+         margin: 30px;;
+</style>
 
-<style>
-
-h1{
-    width: 300px;
-    height: 100Px;
-    background-color: yellow;
-    border-width: 0px;
-    border-style: solid;
-    border-color: lightgray;
-    padding: 10px;
-    outline-width: 0px;
-    outline-style: solid;
-    outline-color: lightgray;
-    margin: 30px;;
-    }
-
-h2{
-    width: 300px;
-    height: 10Px;
-    background-color: yellow;
-    border-width: 0px;
-    border-style: solid;
-    border-color: lightgray;
-    padding: 10px;
-    outline-width: 0px;
-    outline-style: solid;
-    outline-color: lightgray;
-    margin: 30px;;
-    }
-
-    </style>
-
-     <ul>
+<body>
+<ul>
+    <div>
+        
+        <img src="./img/Gabi.jpg" width="120px" height="120px">
+        <p> <h1> Gabriela Gomes Nascimento </h1> </p> 
         <div>
-        <div><p><h1>Gabriela Gomes Nascimento </h1></p></div>
-        <p>Brasileira, 25 anos</p>
-        <p>Cerejeiras, Atibaia-SP</p>
-        <p><b>Telefone:</b>11 981684967<p>
-        <p><b>Email:</b>gabrielagomes070@gmail.com</p></p>
+        <p>Brasileira, 25 anos</p> 
+        <p>Cerejeiras,Atibaia-SP</p>
+        <p><b>Telefone</b>11 981684967</p>
+        <p><b>Email:</b>gabrielagomes070@gmail.com</p>
+    </div>
         </div>
-           
-    <hr>
-    
-    <h2>Formação</h2>
-    <li class="closed"> Lincenciatura em Pedagogia (Unifaat, Concluído)</li>
+
+<hr>
+<h2>Objetivo</h2>
+Expandir meus conhecimentos,seja na programação, na pedagogia ou em outra área.
+
+<li class="closed"> Lincenciatura em Pedagogia (Unifaat, Concluído) </li>
     <br>
 
-    <h2>Experiência</h2>
+    <h2> Experiência</h2>
     <br>
     <li class="closed"> Conhecimento em Pacote Office </li>
     <li class="closed"> Gestão Escolar </li>
-    <li class="closed"> Estagio Educação Infantil e Ensino Fundamental I </li>
+    <li class="closed"> Estágio Educação Infantil e Ensino Fundamental I </li>
     <li class="closed"> Professora Particular </li>
     <li class="closed"> Monitora em Buffet </li>
     <br>
 
-    <h2>Cursos</h2>
+    <h2>Cursos</h2> 
     <br>
-    <li class="closed"> Recreação: Rodas e Brincadeiras Cantadas com Edinho Paraguassu </li>
-    <li class="closed"> Psicologia da Aprendizagem, Instituto Federal do Rio Grande do Sul (IFRS), EAD </li>
-    <li class="closed"> Pedagogia Hospitalar, Escola Web FBV Cursos, EAD </li>
-    <li class="closed"> Jornada do Alfabetizador, NeuroSaber, EAD </li>
-    <li class="closed"> Seminário Internacional de Educação Infantil, EAD </li>
-    <li class="closed"> Simpósio Neurociência e Educação, EAD </li>
-    <li class="closed"> Seminário Internacional de Comportamento, Inclusão e Diversidade na Educação, EAD </li>
-    <li class="closed"> Seminário Internacional de Educação Básica Híbrida </li>
-    <li class="closed"> Dialogando com Paulo Freire </li>
-    <li class="closed"> Curso Plano de Aula </li>
+    <li  class ="closed"> Recreação: Rodas e Brincadeiras Cantadas com Edinho Paraguassu </li>
+    <li  class ="closed"> Psicologia da Aprendizagem, Instituto Federal do Rio Grande do Sul (IFRS), EAD </li>
+    <li  class ="closed"> Pedagogia Hospitalar, Escola Web FBV Cursos, EAD </li>
+    <li  class ="closed"> Jornada do Alfabetizador, NeuroSaber, EAD </li>
+    <li  class ="closed"> Seminário Internacional de Educação Infantil, EAD </li>
+    <li  class ="closed"> Simpósio Neurociência e Educação, EAD </li>
+    <li  class ="closed"> Seminário Internacional de Comportamento, Inclusão e Diversidade na Educação, EAD </li>
+    <li  class ="closed "> Seminário Internacional de Educação Básica Híbrida </li>
+    <li  class ="closed"> Dialogando com Paulo Freire </li>
+    <li  class ="closed"> Curso Plano de Aula </li>
     <br>
 
 </body>
 </html>
-
-<a href= "https://www.lncc.br/~borges/php/testar.html"></a>
