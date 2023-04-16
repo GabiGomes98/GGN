@@ -1,0 +1,6 @@
+function imprimeNome(nome, idade)
+console.log(nome, idade)
+}
+
+imprimeNome("Gabriela Gomes", 25")
+imprimeNome ("Miguel Miranda", 20")
