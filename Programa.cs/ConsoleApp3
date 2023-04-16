@@ -1,0 +1,20 @@
+
+int numero = 10
+
+Console.WriteLine("minha variável inteira é:" + numero);
+
+double teste = 23.455656d;
+Console.WriteLine("minha variável é:" + teste)
+
+bool valorBool = true;
+
+DateTime valorDateTime = new DateTime(1998, 02, 21, 12, 01, 0)
+
+int m1 = 2021
+int m2 = 13
+int valor total = valorTotal
+int valor total = 2034
+
+Console.WriteLine("minha variável inteira é:" 2021 + 10);
+Console.WriteLine("minha variável é:"13 + 23.455656d)
+
