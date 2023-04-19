@@ -1,29 +1,63 @@
-using System;
-using System.Collections.Generic;
+# hello world
+# print("hello world")
+
+#string
+# nome = input("Qual éo seu nome: ")
+# print(nome)
+
+# inteiros 
+número1 = int(input{"Digite umn úmero: "})
+número2 = int(input{"Digite umn úmero: "})
+Soma = número1(5) + número2(10) = 15
+Subtração = número1(5) - número2(10) = -5
+Multiplicação = número1(5) * número2(10) = 50
+Divisão = número1(5) / número2(10) = 0,5
+print(Soma)
+print(Subtração)
+print(Multiplicação)
+print(Divisão)
 
 
-internal class Program
-{
-    private static bool valores;
+Número1 = 5
+Número2 = 10
 
-    private static void Main(string[] args)
-    {
-        var valor = new List<bool>();
+#inteiros
+número1 = int(input{"Digite umn úmero: "})
+número2 = int(input{"Digite umn úmero: "})
+núemro 3 = int(input{"Digite umn úmero: "})
+Calculo = número1 + número2 * número3
+Calculo = 4 * 3 = 12 + 2 = 14
+print(Calculo)
 
-        int i = 0;
+Número1 = 2
+Número2 = 4
+Número 3 = 3
+
+
+
+# float
+# nuemro1
+# número2
+# print(número1, número2)
+
+# booleano
+verdadeiro = true
+falso = false
+print(verdadeiro)
+
+ int i = 0;
         while (i < 10) {
             //valor.Add(false);
             valor.Add(true);
             foreach (var valores in valor)
                 i += 2;
             { 
-        Console.WriteLine(valores);
-               
 
-             }
+# lista(Array)
 
-        }
+# tupla
 
+#dicionário
 
-    }
-}
+       
+       
