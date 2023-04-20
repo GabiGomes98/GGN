@@ -1,0 +1,29 @@
+using System;
+using System.Collections.Generic;
+
+
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+      var frases = new List<string>();
+        
+  frases.Add("A delicadeza poode ser uma forma de conversar sofrimento, sem que a dor seja ainda maior. Alexandre C. Amaral\n");
+  frases.Add("A melhorparte da beleza é aquela que nenhum retratro consegue expressar. -Sir Francis Bacon\n ")
+  frases.Add("Toda grande caminhada começa com um simples passo! Frase atribuída a Buda\n");
+  frases.Add("Eu quero hoje ser melhro do que ontem e amanhã melhor do que hoje; nunca estarei satisfeito, sempre em busca 
+  de evolução! Frase atribuída a Abílio Diniz\n");
+  frases.Add("Não há sistemas educacionais neutros. Para mim, é impossível pensar emeducação sem considerar a questão do poder. Paulo Freire\n");
+  
+    foreach (var frase in frases)
+
+       {
+
+         Console.WriteLine(frase);
+
+        }
+
+
+    }
+}
+
