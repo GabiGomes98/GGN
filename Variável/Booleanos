@@ -43,16 +43,11 @@ Número 3 = 3
 # booleano
 verdadeiro = true
 falso = false
-print(verdadeiro)
+Número = 10
+Verdadeiro = "Verdade"
+if número == 10
 
- int i = 0;
-        while (i < 10) {
-            //valor.Add(false);
-            valor.Add(true);
-            foreach (var valores in valor)
-                i += 2;
-            { 
-
+ 
 # lista(Array)
 
 # tupla
