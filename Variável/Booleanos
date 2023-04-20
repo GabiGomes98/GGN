@@ -31,9 +31,7 @@ print(Calculo)
 
 Número1 = 2
 Número2 = 4
-Número 3 = 3
-
-
+Número3 = 3
 
 # float
 # nuemro1
@@ -52,7 +50,7 @@ if número == 10
 
 # tupla
 
-#dicionário
+# dicionário
 
        
        
