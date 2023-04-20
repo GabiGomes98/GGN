@@ -1,8 +1,8 @@
 programa {
   inclua biblioteca Matematica --> mat
 
-  funcao inicio (){
-    inteiro forca_e_velocidade[3][2]
+ funcao inicio (){
+inteiro forca_e_velocidade[3][2]
 forca_e_velocidade[0][0] = forca_x
 forca_e_velocidade[1][0] = forca_y
 forca_e_velocidade[2][0] = forca_z
