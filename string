@@ -1,2 +1,6 @@
 string nome = "Gabriela"
 Console.WriteLine(nome)
+
+var numero = 10
+Console.WriteLine(numero)
+
