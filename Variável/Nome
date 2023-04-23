@@ -1,10 +1,21 @@
 var nome = "Gabriela"
   undefined
 console.log(nome)
-Gabriela
+Gabriela         VM436:1
    undefined
 var numero = 1998
    undefined
 console.log(numero)
-1998
+1998             VM517:1
    undefined
+
+
+let nome = "Miguel"
+let sobrenome = "Miranda"
+  undefined
+console.log(nome + sobrenome)
+  MiguelMiranda       VM1949:1   
+  undefined
+console.log(nome + " " + sobrenome)
+Miguel Miranda        VM1953:1  
+  undefined
