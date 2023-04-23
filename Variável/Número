@@ -1,0 +1,21 @@
+let numero = 21 
+let numero = 02
+let numero = 1998
+  undefined 
+console.log(numero + numero2 + numero3)
+2021
+  undefined
+console.log(numero + " " + numero2 + " " + numero3)
+21 2 1998
+  undefined
+
+let numero = 18 
+let numero = 04
+let numero = 2002
+   undefined 
+console.log(numero + numero2 + numero3)
+2024
+  undefined
+console.log(numero + " " + numero2 + " " + numero3)
+18 4 2002
+  undefined
