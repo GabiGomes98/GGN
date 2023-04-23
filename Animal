@@ -1,0 +1,18 @@
+Class Animal 
+Idade: 20
+PesoCorporeo: 3.000 - 4.000
+Habitat Água, 3hibrido
+Altura: Macho 6 - 8 metros
+        Fêmea 5 - 7 metros
+Alimentação: peixes, lulas, focas, golfinhos e toninhas, pingüins, tartarugas-marinhas, e grandes baleias
+Ação: fazer som
+
+Class Cachorro
+Pelagem
+Nome 
+Correr
+Fazer Som ("Au Au") //Polimorfismo
+
+Class Gato
+Nome
+Tamanho
