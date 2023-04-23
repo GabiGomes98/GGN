@@ -1,0 +1,29 @@
+#Exercício1
+{
+function SomaValor(numero1, numero2)
+    let maiorQueDez
+    let resultadoSoma = numero1 + numero2
+    return resultadoSoma
+}
+
+console.log("1º resultado:", SomaValor(7,2))
+
+#Exercício2
+{
+function SomaValor(numero1, numero2)
+    let maiorQueDez = false
+    let resultadoSoma = numero1 + numero2
+    
+    if(resultadoSoma > 10){
+        return maiorQueDez = true
+    }
+    return resultadoSoma
+}
+
+console.log("2º resultado:", SomaValorCondicional(7,8))
+
+#Exercício3
+
+{
+let cidades = ['Atibaia', 'Piracaia', 'Bragança Paulista', 'Nazaré']
+}
