@@ -6,7 +6,7 @@ class Program
     static void Main(string[] args)
     {
         DateTime dtdata = DateTime.Now;
-        DateTime aniversario = new DateTime(1990, 08, 03);
+        DateTime aniversario = new DateTime(1998, 02, 21);
 
 
         Console.WriteLine(dtdata.ToString("dd/MM/yyyy"));
