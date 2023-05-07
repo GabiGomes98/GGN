@@ -10,9 +10,18 @@ namespace ProjetoAulas.Model
 public Carro()
 public string modelo = "Fiat Uno Attractive 1.4 Fire";
 public string ano = "2010"
+public float km = 172 km/h;
 public string QuilometragemCidade = "7,3(Etanol) e 9,1(Gasolina)";
 public string QuilometragemEstrada = "10,6(Etanol) e 13,3(Gasolina);
 public Motor motor = "1.4 com 85/88 cavalos a 5.750 rpm e 12,4/12,5 kgfm a 3.500 rpm, respectivamente com gasolina e etanol 
+}
+
+public class Motor
+        {
+        public string modelo = 1.4 Fire Evo;
+	public string tipo = Dianteiro, transversal, etanol e gasolina;
+	public int tamanho = 72,0 x 84,0 mm;
+	}
 
 Console.WriteLine("Eu sou um carro");
 
