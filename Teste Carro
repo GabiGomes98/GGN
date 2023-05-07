@@ -1,0 +1,46 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+  
+    public string modelo;
+     
+    var carro = new Carro();
+    carro.modelo = "Uno";
+    carro.ano = "95";
+    carro.kilometragem = "500.000";
+    carro.motor = new motor();
+    carro.motor.cabeçote = "5";
+    carro.motor.bobinas = new List<Bobina>();
+    
+    var bobina = new bobina;
+    bobina.rolamento = "aluminio";
+    bobina.voltagem = "75M";
+    
+    carro.motor.bobinas.Add(bobina);
+    
+    var bobinaDois  = new Bobina();
+    bobina.rolamento = cobre;
+    bobina.voltagem = "85M";
+    
+    Console.WriteLine(carro.modelo)
+    Console.WriteLine(carro.ano)
+    Console.WriteLine(carro.kilometragem)
+    Console.WriteLine(carro.ano)
+    Console.WriteLine(carro.motor.cabeçote)
+    Console.WriteLine(carro.motor.modelo)
+    Console.WriteLine(carro.motor.bobinas)
+   
+    foreach(var item in carro.motor.bobinas)
+    {
+      Console.WriteLine(item.rolamento);
+      Console.WriteLine(item.voltagem);
+   
+      Console.Read()
+   
+    
+    
+    
+    
+    
