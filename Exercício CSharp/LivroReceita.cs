@@ -16,17 +16,37 @@ class Program
             this.Receita = Receita;
             this.Categoria = Categoria;
         }
-
+        
+        static List<Livro> receitaBolo;
         static List<Livro> receitasSorvete;
         static List<Livro> receitasTorta;
 
         static void Main(string[] args)
         {
+            receitaBolo = new List<Livro>();
             receitasSorvete = new List<Livro>();
             receitasTorta = new List<Livro>();
 
-            Console.WriteLine("Receita de sorvete? [para sim digite 1]");
+            Console.WriteLine("Receita de Bolo? [para sim digite 1]");
             int digite = Int32.Parse(Console.ReadLine());
+                                
+            if (digite == 1)
+            {
+                receitasBolo.Add(new Livro("brigadeiro", "bolo"));
+                receitasBolo.Add(new Livro("morango", "bolo"));
+                receitasBolo.Add(new Livro("Laranja", "bolo"));
+                receitasBolo.Add(new Livro("Cenoura", "bolo"));
+
+                foreach (Livro l in receitasBolo)
+                    Console.WriteLine(l.Categoria + " de " + l.Receita);
+            }
+            else
+            {
+                Console.WriteLine("Vamos para a próxima categoria!");
+            }
+ 
+           Console.WriteLine("Receita de sorvete? [para sim digite 2]");
+           int digite = Int32.Parse(Console.ReadLine());
 
             if (digite == 1)
             {
@@ -68,7 +88,7 @@ class Program
 
             Console.WriteLine("\n");
 
-            Console.WriteLine("Receita de Escondidinho? [para sim digite 1]");
+            Console.WriteLine("Receita de Escondidinho? [para sim digite 3]");
             int escreva = Int32.Parse(Console.ReadLine());
 
             if (escreva == 1)
