@@ -3,7 +3,7 @@ namespace carro
 {
 	public class Carro
 	{
-		public string modelo = "Fiat Uno Attractive 1.4 Fire";
+		public string modelo = "Fiat Uno Attractive 1.4 Fire Evo 8V";
 		public int ano = "2010";
 		public float km = 172 km/h;
 		
@@ -11,7 +11,7 @@ namespace carro
 
 	public class Motor
 	{
-		public string modelo;
-		public string tipo;
-		public int tamanho;
+		public string modelo = 1.4 Fire Evo;
+		public string tipo = Dianteiro, transversal, etanol e gasolina;
+		public int tamanho = 72,0 x 84,0 mm;
 	}
