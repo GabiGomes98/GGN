@@ -14,16 +14,20 @@ using System.Threading.Tasks;
     carro.motor.cabeçote = "5";
     carro.motor.bobinas = new List<Bobina>();
     
-    var bobina = new bobina;
-    bobina.rolamento = "aluminio";
-    bobina.voltagem = "75M";
+    public class Bobina
+    {
+      public string rolamento;
+      public string voltagem;
+      var bobina = new bobina;
+      bobina.rolamento = "aluminio";
+      bobina.voltagem = "75M";
     
     carro.motor.bobinas.Add(bobina);
     
     var bobinaDois  = new Bobina();
     bobina.rolamento = cobre;
     bobina.voltagem = "85M";
-    
+    }
     Console.WriteLine(carro.modelo)
     Console.WriteLine(carro.ano)
     Console.WriteLine(carro.kilometragem)
@@ -36,8 +40,10 @@ using System.Threading.Tasks;
     {
       Console.WriteLine(item.rolamento);
       Console.WriteLine(item.voltagem);
-   
       Console.Read()
+     }
+   }
+ }
    
     
     
