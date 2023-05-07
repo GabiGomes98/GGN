@@ -1,15 +1,34 @@
-public 
-private
-interno 
-protect
+// See https://aka.ms/new-console-template for more information
+//Pessoa
+//Movimentação
+//Comunicação
+//Dormir
+//Alimentação
+//Clima
+//Necessidade Filiológica
+//Profissão
+//Personalidade
 
-encapsolamento
+//A empresa MaxAlteirTesta ela possui um número de 40.000 funcionários.
+//Hoje em dia a empresa sofre com problemas de controle de seus funcionários.
+//O setor de RH não consegue ter o controle do estado dos seus funcionários.
+//Exemplo: Quantidade de especializações, quantidade de funcionários por setor.
+//A média de salário de cada setor.
+//Registro de tempo por setor
+//Cadastro funcionário por setor
+///Listagem de funcionários por setor 
 
-//pessoa
+Para resolver o problema de controle de funcionários seria interessante colocar cadernos de ponto pela empresa, já que a mesma possui 
+diversos setores, os funcionários iriam assinar o caderno do seu setor, colaborando com o controle de entrada e saida dos mesmos. Isso 
+também ajudaria na questão de sabermos se os funcionários saem mais cedo do que o que o combinado, ou seja, se o funcionário foi contratado
+para trabalhar das 9 as 15 horas, por exemplo, o certo seria ele permanecer na empresa nesse horário, ou avisar o(a) chefe caso precise 
+sair mais cedo por questões pessoais.
 
-movimentação
-comunicação
-dormir
-alimentação
-clima
-necessidades fisiológicas
+Para resolver a questão do registro a empresa pode utilizar um projeto chamado Timesheet, que é uma estratégia onde são calculadas 
+as horas que um funcionário gasta em uma atividade ou projeto, não em sua jornada de trabalho total, permitindo assim analisar
+sua produtividade e identificar possíveis problemas que possam estar atrasando o calendário do setor. Dessa forma a empresa consegue
+planejar melhor os seus próximos passos e saberá projetar com maior facilidade as necessidades monetárias, de tempo e material humano 
+para a sua execução.
+
+
+
