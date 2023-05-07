@@ -1,0 +1,17 @@
+using System;
+namespace carro
+{
+	public class Carro
+	{
+		public string modelo = "Fiat Uno Attractive 1.4 Fire";
+		public int ano = "2010";
+		public float km = 172 km/h;
+		
+	}
+
+	public class Motor
+	{
+		public string modelo;
+		public string tipo;
+		public int tamanho;
+	}
