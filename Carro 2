@@ -15,3 +15,23 @@ namespace carro
 		public string tipo = Dianteiro, transversal, etanol e gasolina;
 		public int tamanho = 72,0 x 84,0 mm;
 	}
+	
+public override void Acelerar()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void Freiar()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void Ligar()
+        {
+            MotorPartidaAcinado = true;
+            InjetadoCombustivel = true;
+            MotorLigado = true;
+            Console.WriteLine("O carro está ligado");
+        }
+    }
+}
