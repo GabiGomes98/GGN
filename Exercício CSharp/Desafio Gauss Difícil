@@ -1,0 +1,34 @@
+using System.Text; 
+using System.Threading.Tasks
+
+espace Desafio_Gauss
+
+public class Dificil
+{
+  public Dficil()
+  {
+      int soma = 0 
+      for (nt i = = 100; i >= 1; i--)
+      {
+          if (i % 5 == 0) 
+          {
+              Console.WriteLine("Gabriela Gomes")
+              if (i % 2 == 0)
+              {   
+                  soma += i;
+              }
+            }
+            else if (i % 2 == 0)
+            {
+                soma += i;
+                Console.WriteLine(i)
+            }
+            else
+            {
+                Console.WriteLine(i);
+            }
+         }
+         Console.WriteLine($"A soma dos números pares")
+         Console.WriteLine("-------------------------")
+      }
+   }
