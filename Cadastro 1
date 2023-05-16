@@ -26,7 +26,7 @@ namespace EmpresaMaxAlteirTesla
             Cadastro1.Id = 1;
             Cadastro1.Nome = "Mário";
             Cadastro1.Educacao = "Ensino superior";
-            Cadastro1.Salario = 1290.90f;
+            Cadastro1.Salario = 1300.00f;
             Cadastro1.TempoDeServico = 12f;
             Cadastro1.CodidoFuncao = 1;
 
@@ -34,7 +34,7 @@ namespace EmpresaMaxAlteirTesla
             Cadastro2.Id = 2;
             Cadastro2.Nome = "Ana";
             Cadastro2.Educacao = "Ensino Médio";
-            Cadastro2.Salario = 32900.90f;
+            Cadastro2.Salario = 10000.00f;
             Cadastro2.TempoDeServico = 10f;
             Cadastro2.CodidoFuncao = 2;
 
@@ -42,7 +42,7 @@ namespace EmpresaMaxAlteirTesla
             Cadastro3.Id = 3;
             Cadastro3.Nome = "Maria";
             Cadastro3.Educacao = "Ensino Superior";
-            Cadastro3.Salario = 3000.90f;
+            Cadastro3.Salario = 3000.00f;
             Cadastro3.TempoDeServico = 8f;
             Cadastro3.CodidoFuncao = 3;
 
@@ -50,7 +50,7 @@ namespace EmpresaMaxAlteirTesla
             Cadastro4.Id = 4;
             Cadastro4.Nome = "Marli";
             Cadastro4.Educacao = "Ensino superior";
-            Cadastro4.Salario = 3590.90f;
+            Cadastro4.Salario = 40000.00f;
             Cadastro4.TempoDeServico = 6f;
             Cadastro4.CodidoFuncao = 4;
 
