@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 //// Empresa MaxAlteirTesla
-//// cargos: Gerente [2], Atendente [2] , rh[2], suporte[2].
+//// cargos: Gerente [2], Atendente [2] , rh[4], suporte[4].
 ////média salarial por setor
 ////Registro de tempo por setor
 //// cadastro e listagem por setor
@@ -24,7 +24,7 @@ namespace EmpresaMaxAlteirTesla
             // Criação dos cadastros
             Cadastro Cadastro1 = new Cadastro();
             Cadastro1.Id = 1;
-            Cadastro1.Nome = "Jose";
+            Cadastro1.Nome = "Mário";
             Cadastro1.Educacao = "Ensino superior";
             Cadastro1.Salario = 1290.90f;
             Cadastro1.TempoDeServico = 12f;
@@ -32,7 +32,7 @@ namespace EmpresaMaxAlteirTesla
 
             Cadastro Cadastro2 = new Cadastro();
             Cadastro2.Id = 2;
-            Cadastro2.Nome = "Carla";
+            Cadastro2.Nome = "Ana";
             Cadastro2.Educacao = "Ensino Médio";
             Cadastro2.Salario = 32900.90f;
             Cadastro2.TempoDeServico = 10f;
@@ -48,7 +48,7 @@ namespace EmpresaMaxAlteirTesla
 
             Cadastro Cadastro4 = new Cadastro();
             Cadastro4.Id = 4;
-            Cadastro4.Nome = "José";
+            Cadastro4.Nome = "Marli";
             Cadastro4.Educacao = "Ensino superior";
             Cadastro4.Salario = 3590.90f;
             Cadastro4.TempoDeServico = 6f;
