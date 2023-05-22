@@ -225,7 +225,7 @@ body {
 </style>
 <body>
     <div class="foto-topo-cv">
-        <img src = ".img/Gabi.jpg" width="120px" height="120px">
+        <img src = "https://avatars.githubusercontent.com/u/127056206?s=400&u=7d5ec91d256ff11ac38f9109f4ecd472ae9c5e2f&v=4" width="120px" height="120px">
         </div>
     </div>
     <div class="faixa-laranja">
@@ -304,9 +304,67 @@ body {
             <p> Simpósio Neurociência e Educação, EAD </p>
             <p> Seminário Internacional de Comportamento, Inclusão e Diversidade na Educação, EAD </p>
             <p> Seminário Internacional de Educação Básica Híbrida, EAD </p>
-    </div>
-    </div>
+    
+    <div>
+        <style>
 
+            input, textarea {
+                /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
+                font: 1em sans-serif;
+            
+                /* Para dar o mesmo tamanho a todos os campo de texto */
+                width: 300px;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
+            
+                /* Para harmonizar o look & feel das bordas nos campos de texto*/
+                border: 1px solid #999;
+            }
+                
+                input:focus, textarea:focus {
+                /* Dar um pouco de destaque nos elementos ativos */
+                border-color: #000;
+            }
+            
+                textarea {
+                    /* Para alinhar corretamente os campos de texto de várias linhas com sua label*/
+                    vertical-align: top;
+                
+                    /* Para dar espaço suficiente para digitar algum texto */
+                    height: 5em;
+                
+                    /* Para permitir aos usuários redimensionarem qualquer textarea verticalmente. Ele não funciona em todos os browsers */
+                    resize: vertical;
+                }
+                
+                </style>
+               
+               <br>
+               <br>
+               <br>
+
+               <h1>Formulário</h1>
+            
+            <form action="formulário.php" method="post"></form>
+            
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="usuario_nome" />
+            <br>  
+            <br>       
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="usuario_email" />
+            <br>  
+            <br>      
+            <label for="mensagem">Mensagem:</label>
+            <textarea cols="50" rows="50" low="50"></textarea>
+            <br>
+            <br>
+            <div class="button">
+            <button type="submit">Enviar sua mensagem</button>
+            </div>
+        </form>
+       
+    </div>
+         
 </body>
-
 </html>
