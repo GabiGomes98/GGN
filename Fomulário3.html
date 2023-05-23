@@ -7,115 +7,68 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Formulário1</h1>
-    <form action="formulário.php" method="get"></form>
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="usuario_nome" />
 
-        <label for="sobrenome">Sobrenome:</label>
-        <input type="text" id="sobrenome" name="usuario_sobrenome" /> 
+    <style>
 
-        <label for="idade">Idade:</label>
-        <input type="text" id="idade" name="usuario_idade" />
+input, textarea {
+    /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
+    font: 1em sans-serif;
 
-        <label for="cidade">Cidade:</label>
-        <input type="text" id="cidade" name="usuario_cidade" />
+    /* Para dar o mesmo tamanho a todos os campo de texto */
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 
-        <label for="formação">Formação:</label>
-        <input type="text" id="nome" name="usuario_nome" />
-        <br>
-        <br>
-        <div class="button">
-            <button type="submit">Enviar sua mensagem</button>
-        </div>
-
-        <h1>Formulário2</h1>
-    <form action="formulário.php" method="get"></form>
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="usuario_nome" />
-
-        <label for="sobrenome">Sobrenome:</label>
-        <input type="text" id="sobrenome" name="usuario_sobrenome" /> 
-
-        <label for="idade">Idade:</label>
-        <input type="text" id="idade" name="usuario_idade" />
-
-        <label for="cidade">Cidade:</label>
-        <input type="text" id="cidade" name="usuario_cidade" />
-
-        <label for="formação">Formação:</label>
-        <input type="text" id="nome" name="usuario_nome" />
-        <br>
-        <br>
-        <div class="button">
-            <button type="submit">Enviar sua mensagem</button>
-        </div>
-
-        <h1>Formulário3</h1>
-        <form action="formulário.php" method="get"></form>
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="usuario_nome" />
+    /* Para harmonizar o look & feel das bordas nos campos de texto*/
+    border: 1px solid #999;
+}
     
-            <label for="sobrenome">Sobrenome:</label>
-            <input type="text" id="sobrenome" name="usuario_sobrenome" /> 
-    
-            <label for="idade">Idade:</label>
-            <input type="text" id="idade" name="usuario_idade" />
-    
-            <label for="cidade">Cidade:</label>
-            <input type="text" id="cidade" name="usuario_cidade" />
-    
-            <label for="formação">Formação:</label>
-            <input type="text" id="nome" name="usuario_nome" />
-            <br>
-            <br>
-            <div class="button">
-                <button type="submit">Enviar sua mensagem</button>
-            </div>
+    input:focus, textarea:focus {
+    /* Dar um pouco de destaque nos elementos ativos */
+    border-color: #000;
+}
 
-            <h1>Formulário4</h1>
-            <form action="formulário.php" method="get"></form>
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="usuario_nome" />
-        
-                <label for="sobrenome">Sobrenome:</label>
-                <input type="text" id="sobrenome" name="usuario_sobrenome" /> 
-        
-                <label for="idade">Idade:</label>
-                <input type="text" id="idade" name="usuario_idade" />
-        
-                <label for="cidade">Cidade:</label>
-                <input type="text" id="cidade" name="usuario_cidade" />
-        
-                <label for="formação">Formação:</label>
-                <input type="text" id="nome" name="usuario_nome" />
-                <br>
-                <br>
-                <div class="button">
-                    <button type="submit">Enviar sua mensagem</button>
-                </div>
+    textarea {
+        /* Para alinhar corretamente os campos de texto de várias linhas com sua label*/
+        vertical-align: top;
+    
+        /* Para dar espaço suficiente para digitar algum texto */
+        height: 5em;
+    
+        /* Para permitir aos usuários redimensionarem qualquer textarea verticalmente. Ele não funciona em todos os browsers */
+        resize: vertical;
+    }
+    
+    </style>
+    
+    <script>
+    function msg() {
+      alert("Mensagem enviada com sucesso!");
+    }
+    </script>
 
-                <h1>Formulário5</h1>
-                <form action="formulário.php" method="get"></form>
-                    <label for="nome">Nome:</label>
-                    <input type="text" id="nome" name="usuario_nome" />
-            
-                    <label for="sobrenome">Sobrenome:</label>
-                    <input type="text" id="sobrenome" name="usuario_sobrenome" /> 
-            
-                    <label for="idade">Idade:</label>
-                    <input type="text" id="idade" name="usuario_idade" />
-            
-                    <label for="cidade">Cidade:</label>
-                    <input type="text" id="cidade" name="usuario_cidade" />
-            
-                    <label for="formação">Formação:</label>
-                    <input type="text" id="nome" name="usuario_nome" />
-                    <br>
-                    <br>
-                    <div class="button">
-                        <button type="submit">Enviar sua mensagem</button>
-                    </div>
-    </form>
+</div>
+
+    <h1>Formulário</h1>
+    
+    <form action="formulário.php" method="post"></form>
+    
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="usuario_nome" />
+    <br>  
+    <br>       
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="usuario_email" />
+    <br>  
+    <br>      
+    <label for="mensagem">Mensagem:</label>
+    <textarea cols="50" rows="50" low="50"></textarea>
+    <br>
+    <br>
+    <div class="button">
+    <input type="button" value="Clique Aqui" onclick="msg()">
+    </div>
+</form>
+
 </body>
 </html>
