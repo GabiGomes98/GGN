@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Informações Nutricionais</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            text-align: center;
+            width: 100%;
+        }
+
+        th,
+        td {
+            border: 0.5px solid rgb(44, 219, 41);
+            padding: 7px;
+            text-align: center;
+        }
+    </style>
+    <link rel="stylesheet" href="/estrtura.css">
+</head>
+
+<body>
+
+    <img src="https://s1.static.brasilescola.uol.com.br/be/conteudo/images/88352f06b2fee7cdca32c3e12f5a68a4.jpg" width="18%" height="18%"
+        border="2px solid rgb(80, 40, 219)">
+
+    <div class="formatacao">
+        <h1>Informações Nutricionais</h1>
+        <form>
+            <label for="alimento">Alimento:</label>
+            <input type="text" id="alimento" name="alimento" /><br /><br />
+
+
+            <label for="calorias">Calorias:</label>
+            <input type="number" id="calorias" name="calorias" /><br /><br />
+
+
+            <label for="quantidade">Quantidade:</label>
+            <input type="number" id="quantidade" name="quantidade" /><br /><br />
+
+
+            <button type="button" onclick="salvarInformacao()">Salvar</button>
+            <button type="button" onclick="apagarInformacao()">Limpar Cadastro</button>
+            <button type="reset" onclick="limpaCaixa()">Limpar Campo</button>
+        </form>
+
+        <h2>Informações Nutricionais</h2>
+        <table id="tabela">
+            <tr>
+                <th>Alimento</th>
+                <th>Calorias</th>
+                <th>Quantidade</th>
+            </tr>
+        </table>
+    </div>
+
+    <script>
+        function salvarInformacao() {
+            var alimento = document.getElementById("alimento").value;
+            var calorias = document.getElementById("calorias").value;
+            var quantidade = document.getElementById("quantidade").value;
+
+            var tabela = document.getElementById("tabela");
+            var newRow = tabela.insertRow();
+            var cell1 = newRow.insertCell(0);
+            cell1.innerHTML = alimento;
+            var cell2 = newRow.insertCell(1);
+            cell2.innerHTML = calorias;
+            var cell3 = newRow.insertCell(2);
+            cell3.innerHTML = quantidade;
+
+            // Limpar campos de entrada
+            document.getElementById("alimento").value = "";
+            document.getElementById("calorias").value = "";
+            document.getElementById("quantidade").value = "";
+        }
+
+        function apagarInformacao() {
+            var tabela = document.getElementById("tabela");
+            tabela.innerHTML = "<tr><th>Alimento</th><th>Calorias</th><th>Quantidade</th></tr>";
+        }
+
+
+        function limpaCaixa() {
+            document.getElementById("alimento").value = "";
+            document.getElementById("calorias").value = "";
+            document.getElementById("quantidade").value = "";
+
+
+        }
+    </script>
+</body>
+
+</html>
