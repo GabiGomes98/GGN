@@ -308,18 +308,23 @@ body {
     <div>
         <style>
 
-            input, textarea {
-                /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
-                font: 1em sans-serif;
+        .success-message {
+            color: green;
+            font-weight: bold;
+        }
+    
+        input, textarea {
+        /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
+        font: 1em sans-serif;
             
-                /* Para dar o mesmo tamanho a todos os campo de texto */
-                width: 300px;
-                -moz-box-sizing: border-box;
-                box-sizing: border-box;
+        /* Para dar o mesmo tamanho a todos os campo de texto */
+        width: 300px;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
             
-                /* Para harmonizar o look & feel das bordas nos campos de texto*/
-                border: 1px solid #999;
-            }
+        /* Para harmonizar o look & feel das bordas nos campos de texto*/
+        border: 1px solid #999;
+        }
                 
                 input:focus, textarea:focus {
                 /* Dar um pouco de destaque nos elementos ativos */
@@ -342,8 +347,20 @@ body {
                <br>
                <br>
                <br>
-
-               <h1>Formulário</h1>
+           
+            </div>
+            <script>
+            var mensagemElemento = document.getElementById("mensagem");
+            mensagemElemento.innerHTML = "";
+            
+    </script>
+              <script>
+                function msg() {
+                  alert("Mensagem enviada com sucesso!");
+                }
+                </script>
+        </script>
+            <h1>Formulário</h1>
             
             <form action="formulário.php" method="post"></form>
             
@@ -360,11 +377,12 @@ body {
             <br>
             <br>
             <div class="button">
-            <button type="submit">Enviar sua mensagem</button>
-            </div>
+            <input type="button" value="Clique Aqui" onclick="msg()">
+
+        </script>
+
+        </div>
         </form>
        
-    </div>
-         
-</body>
-</html>
+        </body>
+        </html>
