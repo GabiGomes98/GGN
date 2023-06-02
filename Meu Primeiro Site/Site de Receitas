@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Meu Site de Receitas</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    main {
+      margin-top: 20px;
+    }
+
+    .recipe {
+      margin-bottom: 20px;
+      padding: 20px;
+      background-color: #f5f5f5;
+      border-radius: 5px;
+    }
+
+    .recipe h2 {
+      margin-top: 0;
+    }
+
+    .recipe p {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Meu Site de Receitas</h1>
+  </header>
+  
+      <main>
+      <div class="recipe">
+      <h2>Churrasqueadas: Kafta de quatro queijos</h2>
+      <img src="https://emc.empresaspioneiras.com.br/dbimagens/churrasqueadas_churrasco_1200x675_05042023170322.jpg" width="400" height="350">
+      
+      <p>Ingredientes:</p>
+      <ul>
+        
+        <li>2kg de carne moída de acém</li>
+        <li>2 pacotes de creme de cebola (78g)</li>
+        <li>200ml de molho inglês</li>
+        <li>20g de salsinha desidratada</li>
+        <li>300g de muçarela fatiada</li>
+        <li>80g de queijo gorgonzola</li>
+        <li>250g de requeijão para pizza</li>
+        <li>1 pitada de parmesão ralado (50g)</li>
+        </ul>
+
+        <p>Modo de preparo:</p>
+        <ol>
+        <li>Coloque a carne moída de acém em uma tigela, jogue por cima o creme de cebola, o molho inglês e a salsinha e, em seguida, misture bem. Se desejar, acrescente sal e pimenta do reino;</li>
+        <li>Pegue aproximadamente 500g da mistura e coloque em um saco plástico;</li>
+        <li>Pressione a mistura, de forma que tire o ar da carne;</li>
+        <li>Pegue um rolo de massa, e passe por cima do saco com a mistura, até que chegue na espessura desejada;</li>
+        <li>Assim que o formato estiver definido, corte o lado de cima do saco, de forma que a carne fique exposta;</li>
+        <li> Adicione uma camada de mussarela, gorgonzola e requeijão por cima, lembrando sempre de deixar dois dedos das laterais sobrando;</li>
+        <li>Rale o queijo parmesão por cima da última camada;</li>
+        <li> Em seguida, feche a massa da kafta, unindo as duas pontas, como se fosse um pastel;</li>
+        <li>Use o dorso da faca para selar os lados com o plástico;</li>
+        <li> Leve a massa para grelhar;</li>
+        <li>Assim que assar de todos os lados, é só retirar e servir esse prato extremamente suculento!</li>
+        <li>Você ainda pode usar o restante da massa para fazer almôndegas ou espetinho de kafta.</li>
+        </ol>
+        
+        </div>
+        <div class="recipe">
+        <h2>Churrasqueadas: Salada de Frango Desfiado</h2>
+        <img src="https://emc.empresaspioneiras.com.br/dbimagens/ze_almiro_1200x675_06042023144743.jpg" width="400" height="350">
+        
+        
+        <p>Ingredientes:</p>
+        <ul>
+        <li>Alface Mexicana </li>
+        <li>Milho</li>
+        <li>Cebola Roxa</li>
+        <li>Pepino Japonês</li>
+        <li>Queijo Parmesão</li>
+        <li>300g de frango desfiado</li>
+        <li>Alho</li>
+        <li>Cebola</li>
+        <li>Azeite</li>
+        <li>Páprica</li>
+        <li>Sal</li>
+        </ul>
+
+        <p>Molho:</p>
+        <ol>
+        <li>Molho</li>
+        <li>Meio Limão</li>
+        <li>Mostarda</li>
+        <li>Sal</li>
+        <li>Azeite</li>
+        </ol>
+
+        <p>Modo de preparo:</p>
+        <ol>
+        <li>Cozinhe o frango na panela de pressão, com alho, cebola e sal;</li>
+        <li>Quando levantar fervura, deixe o frango na pressão por um período de 20 a 30 minutos;</li>
+        <li>Depois de cozido, desfie o frango;</li>
+        <li>Na frigideira, refogue a cebola, o alho, a páprica e o sal;</li>
+        <li>Em seguida, misture o frango com o alface, o pepino, o milho, a cebola roxa, o tomate cereja e o queijo parmesão;</li>
+        <li>Para fazer o molho, misture o iogurte natural, o limão, a mostarda, o sal e o azeite;</li>
+        <li>Por fim, despeje o molho sobre a salada. </li>
+        </ol>  
+
+        </div>
+        <div class="recipe">
+        <h2>Churrasqueadas: Macarronese</h2>
+        <img src="https://emc.empresaspioneiras.com.br/dbimagens/como_fazer_1200x675_06042023112349.jpg" width="400" height="350">
+            
+        <p>Ingredientes:</p>
+        <ul>
+        <li>500g de macarrão parafuso</li>
+        <li>1 cenoura ralada</li>
+        <li>150g de presunto picado</li>
+        <li>1 latinha de ervilha em conserva</li>
+        <li>1 latinha de milho em conserva</li>
+        <li>1 pitada de sal</li>
+        <li>Pimenta do reino</li>
+        <li>Cheiro verde</li>
+        <li>300g de maionese</li>
+        </ul>
+        
+        <p>Modo de preparo:</p>
+        <ol>
+        <li>Cozinhe o macarrão parafuso;</li>
+        <li>Tempere com azeite, pimenta do reino e maionese;</li>
+        <li>Acrescente milho verde, cenoura, ervilhas e uma pitada de sal;</li>
+        <li>Coloque o presunto picado e misture bem;</li>
+        <li>Reserve na geladeira por 20 minutos. </li>
+              
+        </div>
+        <div class="recipe">
+        <h2>Churrasqueadas: Temaki de Salmão</h2>
+        <img src="https://emc.empresaspioneiras.com.br/dbimagens/ze_almiro_1200x675_06042023131923.jpg" width="400" height="350">
+      
+        <p>Ingredientes:</p>
+        <ul>
+        <li>Salmão</li>
+        <li>Sal</li>
+        <li>Lemon Pepper</li>
+        <li>Azeite</li>
+        <li>200g Cream Cheese</li>
+        <li>Cebolinha</li>
+        <li>Nori (Alga Marinha)</li>
+        <li>Arroz de Sushi</li>
+        <li>Gergelim</li>
+        </ul>
+      
+        <p>Modo de preparo:</p>
+        <ol>
+        <li>Tempere o salmão com azeite, lemon pepper e sal;</li>
+        <li>Leve o peixe para a grelha com o couro virado para baixo e deixe assar no braseiro médio ou fraco, dependendo do calor da churrasqueira;</li>
+        <li>Quando o salmão estiver ao ponto, retire da grelha e misture com cream cheese e cebolinha;</li>
+        <li>Em seguida, pegue a nori, faça uma caminha de arroz em cima e, depois, outra de salmão;</li>
+        <li>Enrole a nori no formato de um cone e, por fim, salpique gergelim sobre o salmão.</li>
+        </ol>  
+
+    </div>
+  </main>
+</body>
+</html>
