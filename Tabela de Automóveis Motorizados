@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tabela de Automóveis Motorizados</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            text-align: center;
+            width: 100%;
+        }
+
+        th,
+        td {
+            border: 0.5px solid rgb(44, 219, 41);
+            padding: 7px;
+            text-align: center;
+        }
+    </style>
+    <link rel="stylesheet" href="/estrtura.css">
+</head>
+
+<body>
+
+       <div class="formatacao">
+        <h1>Tabela de Automóveis Motorizados</h1>
+        <form>
+            <label for="modelo automóvel">Modelo Automóvel:</label>
+            <input type="text" id="alimento" name="alimento" /><br /><br />
+
+            <label for="ano">Ano:</label>
+            <input type="number" id="calorias" name="calorias" /><br /><br />
+
+            <label for="kilometragem">Kilometragem:</label>
+            <input type="number" id="quantidade" name="quantidade" /><br /><br />
+
+            <label for="modelo motor">Modelo Motor:</label>
+            <input type="text" id="alimento" name="alimento" /><br /><br />
+
+            <button type="button" onclick="salvarInformacao()">Salvar</button>
+            <button type="button" onclick="apagarInformacao()">Limpar Cadastro</button>
+            <button type="reset" onclick="limpaCaixa()">Limpar Campo</button>
+        </form>
+
+        <h2>Tabela de Automóveis Motorizados</h2>
+        <table id="tabela">
+            <tr>
+                <th>Modelo Automóvel</th>
+                <th>Ano</th>
+                <th>Kilometragem</th>
+                <th>Modelo Motor</th>
+                
+            </tr>
+        </table>
+    </div>
+
+    <script>
+        function salvarInformacao() {
+            var alimento = document.getElementById("#").value;
+            var calorias = document.getElementById("#").value;
+            var quantidade = document.getElementById("#").value;
+            var quantidade = document.getElementById("#").value;
+
+
+            var tabela = document.getElementById("tabela");
+            var newRow = tabela.insertRow();
+            var cell1 = newRow.insertCell(0);
+            cell1.innerHTML = alimento;
+            var cell2 = newRow.insertCell(1);
+            cell2.innerHTML = calorias;
+            var cell3 = newRow.insertCell(2);
+            cell3.innerHTML = quantidade;
+            var cell3 = newRow.insertCell(3);
+            cell3.innerHTML = quantidade;
+
+
+            // Limpar campos de entrada
+            document.getElementById("#").value = "";
+            document.getElementById("#").value = "";
+            document.getElementById("#").value = "";
+            document.getElementById("#").value = "";
+        }
+        
+
+        function apagarInformacao() {
+            var tabela = document.getElementById("tabela");
+            tabela.innerHTML = "<tr><th>Alimento</th><th>Calorias</th><th>Quantidade</th></tr>";
+        }
+
+
+        function limpaCaixa() {
+            document.getElementById("alimento").value = "";
+            document.getElementById("calorias").value = "";
+            document.getElementById("quantidade").value = "";
+
+
+        }
+    </script>
+</body>
+
+</html>
