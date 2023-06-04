@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head><title>&#129361;	Informações Nutricionais &#129361;	</title>
+
+
+    <img src="Depositphotos_160465024_original3-1-895x430.jpg" class="minha-imagem">
+    <img src="Depositphotos_160465024_original3-1-895x430.jpg" class="minha-imagem1">
+    <text><h1>Nutrição com Paula</h1></text> 
+    
+
+
+    <style>
+    
+
+
+
+        table {
+            border-collapse: collapse;
+            text-align: center;
+            width: 100%;
+            border-radius: 15cqmax;
+        }
+
+        th,
+        td {
+
+            border: 1px solid rgba(41, 219, 112, 0.888);
+            padding: 7px;
+            text-align: center;
+
+
+        }
+    </style>
+
+
+    <link rel="stylesheet" href="/model/estilo.css">
+
+
+</head>
+
+<body>
+
+
+    <br>
+    <br>
+
+    <div class="formatacao">
+        <h1>Informações Nutricionais</h1>
+        <div id="teste">
+
+
+            <form>
+                <label for="alimento">Alimento:</label>
+                <input type="text" id="alimento" name="alimento" /><br /><br />
+
+
+                <label for="calorias">Calorias:</label>
+                <input type="number" id="calorias" name="calorias" /><br /><br />
+
+
+                <label for="quantidade">Quantidade:</label>
+                <input type="number" id="quantidade" name="quantidade" /><br /><br />
+
+
+                <button type="button" onclick="salvarInformacao()"><img
+                        src="https://github.com/DeniseYuki/Desafio/blob/main/download.png?raw=true" width="15px"
+                        height="15px" alt="Salvar">Salvar</button>
+                <button type="button" onclick="apagarInformacao()"><img
+                        src="https://github.com/DeniseYuki/Desafio/blob/main/limpar.png?raw=true" width="15px"
+                        height="15px" alt="Apagar">Apagar Historico</button>
+                <button type="reset" onclick="limpaCaixa()"><img
+                        src="https://github.com/DeniseYuki/Desafio/blob/main/limpar2.jpg?raw=true" width="15px"
+                        height="15px" alt="Apagar">Apagar campo</button>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="retangulo">
+                    <h3> <label for="graos">&#129372; Escolha o Grão: </label></h3>
+                    <select name="graos" id="graos">
+                        <option value="quinoa">Quinoa</option>
+                        <option value="aveia">Aveia</option>
+                        <option value="centeio">Centeio</option>
+                        <option value="lentilha">Lentilha</option>
+                    </select>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+
+                <div class="retangulo1">
+                    <h3> <label for="frutas">&#127822; Escolha a Fruta: </label></h3>
+                    <select name="fruta" id="fruta">
+                        <option value="Melancia"> &#127817;Melancia </option>
+                        <option value="Uva">&#127815;Uva</option>
+                        <option value="Cereja">&#127826;Cereja</option>
+                        <option value="Morango"> &#127827;Morango</option>
+                    </select>
+                </div>
+
+
+
+
+
+        </div>
+
+        </form>
+
+
+
+        <br>
+        <br><br><br><br><br><br><br><br><br><br>
+
+        <div class="formatacao1">
+            <h2>Informações Nutricionais</h2>
+            <table id="tabela">
+                <tr>
+                    <th>Alimento</th>
+                    <th>Calorias</th>
+                    <th>Quantidade</th>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+
+
+    <script>
+
+
+
+        function salvarInformacao() {
+            var alimento = document.getElementById("alimento").value;
+            var calorias = document.getElementById("calorias").value;
+            var quantidade = document.getElementById("quantidade").value;
+
+            var tabela = document.getElementById("tabela");
+            var newRow = tabela.insertRow();
+
+
+            if (alimento === "") {
+                alert('Erro, digite o nome do alimento!');
+                return;
+            }
+            else if (calorias === "") {
+                alert('Erro, digite as calorias!');
+                return;
+
+            }
+            else if (quantidade === "") {
+                alert('Erro, digite a quantidade!');
+                return;
+
+            }
+            else {
+                var cell1 = newRow.insertCell(0);
+                cell1.innerHTML = alimento;
+                var cell2 = newRow.insertCell(1);
+                cell2.innerHTML = calorias;
+                var cell3 = newRow.insertCell(2);
+                cell3.innerHTML = quantidade;
+
+            }
+
+
+
+            // Limpar campos de entrada
+            document.getElementById("alimento").value = "";
+            document.getElementById("calorias").value = "";
+            document.getElementById("quantidade").value = "";
+        }
+
+
+
+        function apagarInformacao() {
+            var tabela = document.getElementById("tabela");
+            tabela.innerHTML = "<tr><th>Alimento</th><th>Calorias</th><th>Quantidade</th></tr>";
+        }
+
+
+        function limpaCaixa() {
+            document.getElementById("alimento").value = "";
+            document.getElementById("calorias").value = "";
+            document.getElementById("quantidade").value = "";
+
+
+        }
+
+
+
+    </script>
+
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
