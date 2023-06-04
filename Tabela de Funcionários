@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tabela de Funcionários</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            text-align: center;
+            width: 100%;
+        }
+
+        th,
+        td {
+            border: 0.5px solid rgb(44, 219, 41);
+            padding: 7px;
+            text-align: center;
+        }
+    </style>
+
+    <link rel="stylesheet" href="/estrtura.css">
+</head>
+
+<body>
+
+       <div class="formatacao">
+        <h1>Tabela de Funcionários</h1>
+        
+        <form>
+            <label for="#">Nome:</label>
+            <input type="text" id="alimento" name="alimento" /><br /><br />
+
+            <label for="#">Função:</label>
+            <input type="text" id="calorias" name="calorias" /><br /><br />
+
+            <label for="#">Salário:</label>
+            <input type="number" id="quantidade" name="quantidade" /><br /><br />
+
+            <button type="button" onclick="salvarInformacao()">Salvar</button>
+            <button type="button" onclick="apagarInformacao()">Limpar Cadastro</button>
+            <button type="reset" onclick="limpaCaixa()">Limpar Campo</button>
+        </form>
+        <br>
+        <table id="tabela">
+            <tr>
+                <th>Nome</th>
+                <th>Função</th>
+                <th>Salário</th>
+                
+        </tr>
+        </table>
+    </div>
+
+    <script>
+        function salvarInformacao() {
+            var alimento = document.getElementById("#").value;
+            var calorias = document.getElementById("#").value;
+            var quantidade = document.getElementById("#").value;
+            var quantidade = document.getElementById("#").value;
+
+
+            var tabela = document.getElementById("tabela");
+            var newRow = tabela.insertRow();
+            var cell1 = newRow.insertCell(0);
+            cell1.innerHTML = nome;
+            var cell2 = newRow.insertCell(1);
+            cell2.innerHTML = função;
+            var cell3 = newRow.insertCell(2);
+            cell3.innerHTML = salário;
+           
+
+            // Limpar campos de entrada
+            document.getElementById("#").value = "";
+            document.getElementById("#").value = "";
+            document.getElementById("#").value = "";
+            document.getElementById("#").value = "";
+        }
+        
+        function apagarInformacao() {
+            var tabela = document.getElementById("tabela");
+           
+        }
+
+        function limpaCaixa() {
+            document.getElementById("#").value = "";
+            document.getElementById("#").value = "";
+            document.getElementById("#").value = "";
+            document.getElementById("#").value = "";
+
+
+        }
+    </script>
+</body>
+
+</html>
