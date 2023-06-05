@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Geral</title>
+</head>
+<body>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <for action="cadastro.html" method="get"></for>
+<form>
+    <fieldset><legend><h2>Cadastro Geral</h2></legend>
+    <fieldset><legend><h3>Dados Pessoais</h3></legend>
+
+        <label for="name"class="form_label">Nome:</label><br>
+        <input type="text" name="name" class="form_input" id="name" placeholder="Digite seu nome completo"><br><br>
+
+        </select>
+
+    <span class="legenda">Sexo:</span><br>
+
+    <input type="radio" class="form_new_input" name="sexo" id="masculino" required="required">
+    <label for="masculino" class="radio_label form_label"><span class="radio_new_btn"></span>Masculino</label><br>
+
+    <input type="radio" class="form_new_input" name="sexo" id="feminino" required="required">
+    <label for="feminino" class="radio_label form_label"><span class="radio_new_btn"></span>Feminino</label><br><br>
+
+    </fieldset><br>
+
+
+    <fieldset><legend><h3>Localização:</h3></legend>
+        <label for="email">E-mail:</label><br>
+        <input type="email" name="email" class="form_input" id="email" placeholder="seuemail@mail.com"><br><br>
+    </fieldset><br><br>
+
+    <fieldset><legend><h3>Faixa Etária:</h3></legend>
+    <input type="radio" name="idade" id="idade">
+    <label for="idade">até 20 anos.</label><br>
+    <input type="radio" name="idade" id="idade">
+    <label for="idade">mais de 20 e até 30 anos.</label><br>
+    <input type="radio" name="idade" id="idade">
+    <label for="idade">mais de 30 e até 40 anos.</label><br>
+    <input type="radio" name="idade" id="idade">
+    <label for="idade">mais de 40 e até 50 anos.</label><br>
+    <input type="radio" name="idade" id="idade">
+    <label for="idade">mais de 50 e até 60 anos.</label><br>
+    <input type="radio" name="idade" id="idade">
+    <label for="idade">mais de 60 anos.</label><br><br>
+  </fieldset><br>
+
+    <fieldset><legend><h3>Estilos Musicais:</h3></legend>
+        <input type="checkbox" name="#" id="#">
+        <label for="música">Clássica</label><br>
+        <input type="checkbox" name="#" id="#">
+        <label for="música">Pop</label><br>
+        <input type="checkbox" name="#" id="#">
+        <label for="música">Funk</label><br>
+        <input type="checkbox" name="#" id="#">
+        <label for="música">Sertanejo</label><br>
+        <input type="checkbox" name="#" id="#">
+        <label for="música">Internacional</label><br>
+        <input type="checkbox" name="#" id="#">
+        <label for="música">Religioso</label><br>
+        <input type="checkbox" name="#" id="#">
+        <label for="música">Rock</label><br>
+        <input type="checkbox" name="#" id="#">
+        <label for="música">Samba</label><br>
+        <input type="checkbox" name="#" id="#">
+        <label for="música">Pop Rock</label><br>
+        <input type="checkbox" name="#" id="#">
+        <label for="música">Raggae</label><br>
+        <input type="checkbox" name="#" id="#">
+        <label for="música">Pagode</label><br>
+        <input type="checkbox" name="#" id="#">
+        <label for="música">MPB</label><br>
+        <input type="checkbox" name="#" id="#">
+        <label for="música">Alternativo</label><br>
+    </fieldset><br>
+
+    <fieldset><legend><h3>Estilos Seriados:</h3></legend>
+        <input type="checkbox" name="#" id="#">
+        <label for="seriado">Ação</label><br>
+        <input type="checkbox" name="#" id="#">
+        <label for="seriado">Anime</label><br>
+        <input type="checkbox" name="#" id="#">
+        <label for="seriado">Asiáticos</label><br>
+        <input type="checkbox" name="#" id="#">
+        <label for="seriado">Brasileiros</label><br>
+        <input type="checkbox" name="#" id="#">
+        <label for="seriado">Estrangeiros</label><br>
+        <input type="checkbox" name="#" id="#">
+        <label for="seriado">Ciência e Natureza</label><br>
+        <input type="checkbox" name="#" id="#">
+        <label for="seriado">Comédia</label><br>
+        <input type="checkbox" name="#" id="#">
+        <label for="seriado">Drama</label><br>
+        <input type="checkbox" name="#" id="#">
+        <label for="seriado">Policiais</label><br>
+        <input type="checkbox" name="#" id="#">
+        <label for="seriado">Reality e Talk Shows</label><br>
+        <input type="checkbox" name="#" id="#">
+        <label for="seriado">Romance</label><br>
+        <input type="checkbox" name="#" id="#">
+        <label for="seriado">Documentários</label><br>
+        <input type="checkbox" name="#" id="#">
+        <label for="seriado">Outros</label><br>
+        <textarea name="mensagem" id="mensagem" cols="30" rows="0"></textarea><br><br>
+    </fieldset><br>
+
+    <input type="hidden" name="acao" value="enviar">
+    <button type="submit" name="Submit" class="submit_btn">CADASTRAR</button>
+    <input type="reset" value="LIMPAR">
+    
+</fieldset>
+    
+    </fieldset><br><br>
+</form>
+     
+    
+</body>
+</html>
