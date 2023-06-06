@@ -12,7 +12,7 @@
     
     <for action="cadastro.html" method="get"></for>
 <form>
-    <fieldset><legend><h2>Cadastro Geral</h2></legend>
+    <fieldset><legend><h2>Pesquisa</h2></legend>
     <fieldset><legend><h3>Dados Pessoais</h3></legend>
 
         <label for="name"class="form_label">Nome:</label><br>
