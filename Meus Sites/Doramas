@@ -70,24 +70,8 @@
     >
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img
-            src="https://imagens.ne10.uol.com.br/veiculos/_midias/jpg/2023/03/01/doramas_coreanos_netflix_assistir_k_drama_vincenzo_pousando_no_amor_uma_advogada_extraordinaria-22502114.jpg"
+          <img src="https://www.jornalismo.ufv.br/cinecom/wp-content/uploads/2022/04/Revisao-verbal-Parte-II.png"
             class="d-block w-100"
-            alt="policial-swat-com-uma-arma-de-fogo-nas-maos"
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="https://sobresagas.com.br/wp-content/uploads/2022/09/7-doramas-romanticos-para-quem-gostou-de-young-lady-and-gentleman.jpg"
-            class="d-block w-100"
-            alt="astrounauta-em-gerra-espacial-em-outro-planeta"
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="https://www.jornalismo.ufv.br/cinecom/wp-content/uploads/2022/04/Revisao-verbal-Parte-II.png"
-            class="d-block w-100"
-            alt="imagem-menina-feliz-jogando-ps5"
           />
         </div>
       </div>
