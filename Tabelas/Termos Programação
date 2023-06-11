@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tabela Programação</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th, td {
+      text-align: left;
+      padding: 8px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <h1>Tabela de Funcionários</h1>
+  
+  <table>
+    <thead>
+      <tr>
+        <th>Termos Programação</th>
+        <th>Significado</th>
+      </tr>
+    </thead>
+    <body>
+
+      <tr>
+        <td>Algoritmo</td>
+        <td>É um passo a passo para resolver um problema. Uma sequência finita de ações executáveis que visa 
+        obter uma solução para um determinado tipo de problema.</td>
+      </tr>
+
+      <tr>
+        <td>API</td>
+        <td> É uma abreviação de Application Programming Interface, ou Interface de Programação de Aplicativos. APIs são serviços desenvolvidos e disponibilizados para que um ou mais produtos de software acessem e utilizem suas funcionalidades. Um exemplo de API utilizada por vários programas é a do Google Maps, que disponibiliza seus mapas e definições de localização para diversos serviços, que não apenas o aplicativo do Google.</td>
+      </tr>
+
+      <tr>
+        <td>ASCII (American Standard Code for Information Interchange)</td>
+        <td>Traduzido para a Língua Portuguesa, significa código americano padronizado de intercâmbio de informações. Trata-se de uma tabela que relaciona qual byte representa qual caractere.</td>
+      </tr>
+
+      <tr>
+        <td>Array</td>
+        <td>Estrutura de dados que armazena uma coleção de elementos que podem ser endereçados individualmente.</td>
+      </tr>
+
+      <tr>
+        <td>AWS (Amazon Web Services)</td>
+        <td>Plataforma de serviços em nuvem da Amazon segura que oferece serviços de infraestrutura de TI para empresas por meio de serviços web.</td>
+      </tr>
+
+      <tr>
+        <td>Back-end</td>
+        <td>Programador que trabalha com a lógica da aplicação, armazenamento e segurança de todos os dados gerados.</td>
+      </tr>
+
+      <tr>
+        <td>Backup</td>
+        <td>Cópia de dados de um dispositivo de armazenamento a outro para evitar perda dos dados originais.</td>
+      </tr>
+
+      <tr>
+        <td>Backup</td>
+        <td>Cópia de dados de um dispositivo de armazenamento a outro para evitar perda dos dados originais.</td>
+      </tr>
+
+      <tr>
+        <td>Backup</td>
+        <td>Cópia de dados de um dispositivo de armazenamento a outro para evitar perda dos dados originais.</td>
+      </tr>
+
+      <tr>
+        <td>Bit</td>
+        <td> É a menor unidade de medida de dados que pode ser armazenada ou transmitida no universo computacional. Um bit tem um único valor, zero ou um, com valor de verdadeiro ou de falso.</td>
+      </tr>
+
+      <tr>
+        <td>BPS (Bits Per Second)</td>
+        <td>Na Língua Portuguesa, significa bits por segundo. Se trata de uma medida de transmissão ou recepção de bits.</td>
+      </tr>
+
+      <tr>
+        <td>Branch</td>
+        <td>Ramificações de um repositório (ver significado). Cada branch tem a mesma base, mas podem ter alterações diferentes entre si. É comum que o objetivo final em um projeto seja que todas as branches sejam unidas a uma branch principal.</td>
+      </tr>
+
+      <tr>
+        <td>Bug</td>
+        <td>Erro no código que pode estar causando um comportamento indesejado na aplicação.</td>
+      </tr>
+
+      <tr>
+        <td>Cache</td>
+        <td>É uma memória pequena, porém muito rápida. Um espaço de armazenamento dedicado a guardar informações que são utilizadas com frequência. É comum que alguns sites utilizem os navegadores para guardar informações em cache.</td>
+      </tr>
+
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+    </body>
+
+  </table>
+</body>
+</html>
