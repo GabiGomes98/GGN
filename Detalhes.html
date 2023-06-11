@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Detalhes do Produto</title>
+  </head>
+  <body>
+    <h1>Detalhes do Produto</h1>
+
+    <div id="produto-container">
+      <!-- Os detalhes do produto serão preenchidos dinamicamente aqui -->
+    </div>
+
+    <div id="produto-detalhes">
+      <!-- Os detalhes do produto serão preenchidos dinamicamente aqui -->
+    </div>
+
+    <script>
+      // Função para obter o valor do parâmetro da URL pelo nome
+      function obterParametrosDaURL() {
+        var url = window.location.href;
+        var parametros = url.split("?")[1];
+        var parametrosDivididos = parametros.split("&");
+        var parametrosObjeto = {};
+
+        for (var i = 0; i < parametrosDivididos.length; i++) {
+          var parametro = parametrosDivididos[i].split("=");
+          var chave = parametro[0];
+          var valor = parametro[1];
+          parametrosObjeto[chave] = valor;
+        }
+
+        return parametrosObjeto;
+      }
+      // Função para buscar os detalhes do produto com base no ID
+      function buscarProdutoPorId(id) {
+        // Aqui você pode realizar uma chamada Ajax, buscar os detalhes do produto em uma API, banco de dados, etc.
+        // Neste exemplo, usaremos um objeto com informações estáticas para cada ID de produto.
+        var produtos = {
+          1: {
+            nome: "Produto 1",
+            preco: "R$ 199,90",
+            descricao: "Controle Xbox-One Original Joystick Com Fio Pc, Usb-Feir",
+            detalhesTitulo: "Informações do Produto",
+            detalhes:
+           \n\com design ergonômico para maior conforto o Controle Feir - XBOX-ONE é a escolha perfeita para os fãs de games.\n\
+            \n\Pois conta com o que de melhor tem no mercado, para te proporcionar a melhor e mais precisa experiência de jogo. \n\
+             \n\Equipado com 12 botões, sendo 4 de ação e 4 para funções, 2 joysticks analógicos, botões sensíveis à pressão, 2 motores internos para máxima vibração e botão digital de 8 direções.\n\
+              \n\É de fácil instalação e operação, possui conexão via porta USB e cabo de 2.10 metros.\n\
+               \n\Compre agora mesmo o seu e transforme a sua forma de jogar.\n\
+                \n\Pode ser usado com um Xbox-One e também com um PC o Xbox-One ou PC Especificações gerais: Voltagem De Trabalho: 5v Corrente De Trabalho: 100ma Possui 4 Leds Que Indica O Player Suporte Para Vibração Dupla P2 Para Fone ( Apenas No Xbox-One ) Cabo 2,10mt Marca: FEIR Compatibilidade: XBOX-One e PC Conteúdo da embalagem: 1 x Controle com Fio Para Xbox-one\n\
+
+          },
+          2: {
+            nome: "Produto 2",
+            preco: "R$ 11,61",
+            descricao: "Panasonic UM-3SHSL8P6, Pilha Comum Linha Super Hyper Proteção Antivazamento, pacote de 8",
+            detalhesTitulo: "Informações do Produto",
+            detalhes:
+            \n\1.5 volts\n\
+             \n\Tamanho AA\n\
+              \n\Anti Vazamento\n\
+               \n\Voltagem: 1, 5v\n\
+
+          };
+
+        return produtos[id] || null;
+      }
+
+      // Função para exibir os detalhes do produto na página
+      function exibirDetalhesDoProduto() {
+        var parametros = obterParametrosDaURL();
+        var id = parametros.id;
+        var produto = buscarProdutoPorId(id);
+
+        if (produto) {
+          var produtoContainer = document.getElementById("produto-container");
+          var produtoHTML =
+            <h2>Casas Bahia</h2>
+            produto.nome +
+            <h2>Controle Xbox-One Original Joystick Com Fio Pc, Usb-Feir</h2>
+            "<p>Preço: " +
+            produto.preco +
+            "</p>" +
+            "<p>" +
+            produto.descricao +
+            "</p>";
+          produtoContainer.innerHTML = produtoHTML;
+
+          var produtoDetalhes = document.getElementById("produto-detalhes");
+
+          var detalhesHTML =
+            "<h2>" +
+            produto.detalhesTitulo +
+            "</h2>" +
+            "<span>Detalhes do produto: " +
+            produto.detalhes +
+            "</span>";
+          produtoDetalhes.innerHTML = detalhesHTML;
+        } else {
+          var produtoContainer = document.getElementById("produto-container");
+          produtoContainer.innerHTML = "<p>Produto não encontrado</p>";
+        }
+      }
+
+      // Chamada para exibir os detalhes do produto quando a página é carregada
+      exibirDetalhesDoProduto();
+    </script>
+  </body>
+</html>
