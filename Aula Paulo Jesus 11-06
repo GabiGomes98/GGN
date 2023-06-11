@@ -3,3 +3,40 @@ Seletor ID
 Seletor Class
 .fundo{
 .fundo:hover{
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+       
+    
+<body>
+    <h1 id="cor_verde">Curso Gauss</h1>
+    <h1 id="cor_verde">Aula CSS</h1>
+    
+    <h2 id="cor_azul">Seletor Tag</h2>
+    <p>Este seletor básico escolhe todos os elementos que correspondem ao nome fornecido. Sintaxe: nome-da-tag Exemplo: input corresponderá a qualquer elemento INPUT. </p>
+    
+    <h3 fon>Seletor ID</h3>
+    <p>Este seletor básico escolhe elementos baseados no valor de seu atributo classe. Sintaxe: .nome-da-classe Exemplo: .index irá corresponder a qualquer elemento que tenha o índice de classe (provavelmente definido por um atributo class="index", ou similar).</p>
+
+    <h4>Seletor Class</h4>
+    <p>Este seletor básico escolhe nós baseados no valor do atributo id. Deve existir apenas um elemento com o mesmo ID no mesmo documento. Sintaxe: #nome-do-id Exemplo: #toc irá corresponder ao elemento que possuir o id=toc (definido por um atributo id="toc", ou similar).</p>
+   
+</body>
+
+</html>
+
+STYLE CSS
+#cor_verde{
+    color: aqua;
+    }
+
+    h2{
+        color: blue;
+    }
+
+    h3{
+        font-size: 30px  ;
+    }
