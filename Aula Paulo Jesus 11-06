@@ -40,3 +40,45 @@ STYLE CSS
     h3{
         font-size: 30px  ;
     }
+    
+    <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+       
+    
+<body>
+    <h1 id="cor_verde">Curso Gauss</h1>
+    <h1 id="cor_verde">Aula CSS</h1>
+    
+    
+        <div  id="cor_azul" class="card" style="width: 18rem;">
+        <img src="https://static.vecteezy.com/ti/vetor-gratis/p1/16141078-icone-de-hashtag-de-desenhoial-em-estilo-comico-pictograma-de-ilustracao-de-conceito-de-marketing-de-midia-social-conceito-de-efeito-de-respingo-de-negocios-de-rede-hashtag-vetor.jpg" width="300" height="250">
+        <div class="card-body">
+          <h5 class="card-title">Seletor Tag</h5>
+          <p class="card-text">Este seletor básico escolhe todos os elementos que correspondem ao nome fornecido. Sintaxe: nome-da-tag Exemplo: input corresponderá a qualquer elemento INPUT.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+   <br>
+    <div  id="cor_azul" class="card" style="width: 18rem;">
+        <img src="https://cdn.xxl.thumbs.canstockphoto.com.br/desenho-id-%C3%ADcone-letra-vetorial-logotipo-d-vetor-cliparte_csp87584259.jpg" width="300" height="250">
+        <div class="card-body">
+          <h5 class="card-title">Seletor ID</h5>
+          <p class="card-text">Este seletor básico escolhe elementos baseados no valor de seu atributo classe. Sintaxe: .nome-da-classe Exemplo: .index irá corresponder a qualquer elemento que tenha o índice de classe (provavelmente definido por um atributo class="index", ou similar).</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <br>
+    <div  id="cor_azul" class="card" style="width: 18rem;">
+        <img src="https://www.class.com/wp-content/uploads/2022/01/class-logo-1200x627-1.jpg" width="300" height="250">
+        <div class="card-body">
+          <h5 class="card-title">Seletor Class</h5>
+          <p class="card-text">Este seletor básico escolhe nós baseados no valor do atributo id. Deve existir apenas um elemento com o mesmo ID no mesmo documento. Sintaxe: #nome-do-id Exemplo: #toc irá corresponder ao elemento que possuir o id=toc (definido por um atributo id="toc", ou similar).</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+   
+</body>
+</html>
