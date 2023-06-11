@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8" />
+<title>Page Title</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+<style>
+  .bac {
+    background: url('https://conteudoproduto.magazineluiza.com.br/22/224713300/assets/img/qualidade-4k.jpg') no-repeat center center fixed;
+    height: 100vh;
+  }
+    
+  </style>
+</style>
+</head>
+
+<body>
+
+  <div class="container-fluid">
+
+    <div class="#">
+      <div class="col-12">
+<br>
+        <div class="card-deck align-content-start justify-content-center">
+          <div class="card w-60" style="width: 18rem;">
+            <img src="https://a-static.mlcdn.com.br/800x560/controle-xbox-one-original-joystick-com-fio-pc-usb-feir/lojadegames123/8296091cc4bd11ed96d04201ac18502f/e8fbf3686ae7df7df8d665b4941f0cbb.jpeg" width="300" height="250">
+            <div class="card-body">
+              <h5 class="card-title">Controle Xbox-One Original Joystick Com Fio Pc, Usb-Feir</h5>
+              <p class="card-text">Preço: 199,90</p>
+              <a href="https://www.magazineluiza.com.br/controle-xbox-one-original-joystick-com-fio-pc-usb-feir/p/ejbh94d71e/ga/copc/?&seller_id=lojadegames123&utm_source=bing&utm_medium=pla&utm_campaign=&partner_id=65137&gclsrc=aw.ds&msclkid=75454287f68f1413c2ab26020a38ff48" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card w-60" style="width: 18rem;">
+            <img src= "https://m.media-amazon.com/images/I/91UhBLrK9VL._AC_SY879_.jpg" width="150" height="200">
+            <div class="card-body">
+              <h5 class="card-title">Panasonic UM-3SHSL8P6, Pilha Comum Linha Super Hyper Proteção Antivazamento, pacote de 8</h5>
+              <p class="card-text">Preço: 11,61</p>
+              <a href="https://www.amazon.com.br/Prote%C3%A7%C3%A3o-Antivazamento-Panasonic-UM-3SHSL8P6-pacote/dp/B07GYVRNH5/ref=asc_df_B07GYVRNH5/?tag=googleshopp00-20&linkCode=df0&hvadid=379739367028&hvpos=&hvnetw=g&hvrand=10192512491994277471&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1031462&hvtargid=pla-847087685202&psc=1" class="btn btn-primary">Go somewhere</a>
+            </div>
+        
+
+</body>
+
+</html>
