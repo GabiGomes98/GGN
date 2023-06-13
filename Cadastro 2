@@ -1,0 +1,65 @@
+using System;
+using System.Collections.Generic;
+
+namespace EmpresaMaxAlteirTesla
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Criação dos funcionários
+            Funcionario funcionario1 = new Funcionario();
+            funcionario1.Id = 1;
+            funcionario1.Nome = "João";
+            funcionario1.Cargo = "Desenvolvedor";
+            funcionario1.Salario = 5000.00f;
+
+            Funcionario funcionario2 = new Funcionario();
+            funcionario2.Id = 2;
+            funcionario2.Nome = "Maria";
+            funcionario2.Cargo = "Analista de Dados";
+            funcionario2.Salario = 6000.00f;
+
+            // Lista de funcionários
+            List<Funcionario> funcionarios = new List<Funcionario>();
+            funcionarios.Add(funcionario1);
+            funcionarios.Add(funcionario2);
+
+            // Cadastro de novo funcionário
+            Funcionario novoFuncionario = new Funcionario();
+            novoFuncionario.Id = 3;
+
+            Console.WriteLine("Digite o nome do funcionário:");
+            novoFuncionario.Nome = Console.ReadLine();
+
+            Console.WriteLine("Digite o cargo do funcionário:");
+            novoFuncionario.Cargo = Console.ReadLine();
+
+            Console.WriteLine("Digite o salário do funcionário:");
+            novoFuncionario.Salario = float.Parse(Console.ReadLine());
+
+            funcionarios.Add(novoFuncionario);
+
+            // Exibição dos funcionários cadastrados
+            Console.WriteLine("\n===== Funcionários Cadastrados =====\n");
+            foreach (var funcionario in funcionarios)
+            {
+                Console.WriteLine($"ID: {funcionario.Id}");
+                Console.WriteLine($"Nome: {funcionario.Nome}");
+                Console.WriteLine($"Cargo: {funcionario.Cargo}");
+                Console.WriteLine($"Salário: {funcionario.Salario:C2}\n");
+            }
+        }
+    }
+
+    class Funcionario
+    {
+        public int Id { get; set; }
+        public string Nome { get; set; }
+        public string Cargo { get; set; }
+        public float Salario { get; set; }
+    }
+}
+
+
+
