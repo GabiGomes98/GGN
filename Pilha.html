@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Detalhes do Produto 2</title>
+  </head>
+  <body>
+    <h1>Detalhes do Produto 2</h1>
+
+    <div id="produto-container">
+      <!-- Os detalhes do produto serão preenchidos dinamicamente aqui -->
+      <div>
+        <p><b>Nome:</b> Produto 2</p>
+        <p><b>Preço:</b> R$ 11,61</p>
+        <p><b>Descrição:</b> Panasonic UM-3SHSL8P6, Pilha Comum Linha Super Hyper Proteção Antivazamento, pacote de 8</p>
+      </div>
+    </div>
+
+    <div id="produto-detalhes">
+      <!-- Os detalhes do produto serão preenchidos dinamicamente aqui -->
+      <div>
+        <h1>Informações do Produto 2</h1>
+        <ul>
+          <li>1.5 volts</li>
+          <li>Tamanho AA</li>
+          <li>Anti Vazamento</li>
+          <li>Voltagem: 1,5v</li>
+        </ul>
+      </div>
+    </div>
+
+    <script>
+      // Função para obter o valor do parâmetro da URL pelo nome
+      function obterParametrosDaURL() {
+        var url = window.location.href;
+        var parametros = url.split("?")[1];
+        var parametrosDivididos = parametros.split("&");
+        var parametrosObjeto = {};
+
+        for (var i = 0; i < parametrosDivididos.length; i++) {
+          var parametro = parametrosDivididos[i].split("=");
+          var chave = parametro[0];
+          var valor = parametro[1];
+          parametrosObjeto[chave] = valor;
+        }
+
+        return parametrosObjeto;
+      }
+
+      // Função para buscar os detalhes do produto com base no ID
+      function buscarProdutoPorId(id) {
+        // Aqui você pode realizar uma chamada Ajax, buscar os detalhes do produto em uma API, banco de dados, etc.
+        // Neste exemplo, usaremos um objeto com informações estáticas para cada ID de produto.
+        var produtos = {
+          2: {
+            nome: "Produto 2",
+            preco: "R$ 11,61",
+            descricao: "Panasonic UM-3SHSL8P6, Pilha Comum Linha Super Hyper Proteção Antivazamento, pacote de 8",
+            detalhes: "1.5 volts, Tamanho AA, Anti Vazamento e Voltagem: 1,5v",
+          },
+        };
+
+        return produtos[id] || null;
+      }
+
+      // Função para exibir os detalhes do produto na página
+      function exibirDetalhesDoProduto() {
+        var parametros = obterParametrosDaURL();
+        var id = parametros.id;
+        var produto = buscarProdutoPorId(id);
+
+        if (produto) {
+          var produtoContainer = document.getElementById("produto-container");
+          var produtoHTML =
+            "<h2>Pilha</h2>" +
+            "<span>" + produto.nome + "</span>" +
+            "<span>Panasonic UM-3SHSL8P6</span>" +
+            "<span>" + produto.preco + "</span>" +
+            "<span>R$ 11,61</span>" +
+            "<span>" + produto.descricao + "</span>";
+          produtoContainer.innerHTML = produtoHTML;
+
+          var produtoDetalhes = document.getElementById("produto-detalhes");
+          var detalhesHTML =
+            "<h1>Informações do Produto 2</h1>" +
+            "<ul>" +
+            "<li>1.5 volts</li>" +
+            "<li>Tamanho AA</li>" +
+            "<li>Anti Vazamento</li>" +
+            "<li>Voltagem: 1,5v</li>" +
+            "</ul>";
+          produtoDetalhes.innerHTML = detalhesHTML;
+        } else {
+          var produtoContainer = document.getElementById("produto-container");
+          produtoContainer.innerHTML = "<p>Produto não encontrado</p>";
+        }
+      }
+
+      // Chamada para exibir os detalhes do produto quando a página é carregada
+      exibirDetalhesDoProduto();
+    </script>
+  </body>
+</html>
