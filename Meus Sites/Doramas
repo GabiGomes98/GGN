@@ -36,13 +36,8 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >Home <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://www.netflix.com/br/browse/genre/2638104">Link</a>
+            <li class="nav-item">
+            <a class="nav-link" href="https://www.netflix.com/br/browse/genre/2638104" target="_blank">Link</a>
           </li>
           <li class="nav-item dropdown">
             <a
@@ -56,8 +51,8 @@
             </a>
             <div class="dropdown-menu">
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="https://www.google.com/search?q=doramas&sxsrf=APwXEddf6AJngCKm6z_IEAIKSXGTXOXpRQ%3A1685555269736&source=hp&ei=RYh3ZLGbK_Hh1sQP1M6x2As&iflsig=AOEireoAAAAAZHeWVe8NQwLZJccJlrZc1OyGVWiMQUrh&oq=dora&gs_lcp=Cgdnd3Mtd2l6EAEYADIHCCMQigUQJzIHCCMQigUQJzILCAAQgAQQsQMQgwEyCAguELEDEIAEMggIABCABBCxAzILCAAQgAQQsQMQgwEyCwgAEIAEELEDEIMBMgsIABCABBCxAxCDATILCAAQgAQQsQMQgwEyCwguEIAEELEDEIMBOgcIIxDqAhAnOgsILhCKBRCxAxCDAToLCAAQigUQsQMQgwE6EQguEIAEELEDEIMBEMcBENEDOgUIABCABDoFCC4QgARQ3gNY7glgmh1oAXAAeACAAXOIAbUDkgEDMC40mAEAoAEBsAEK&sclient=gws-wiz">Google (Doramas)</a>
-              <a class="dropdown-item" href="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FGabiGomes1998%2Fposts%2Fpfbid02ZN3Z8XiqaPKeSYHaHWga2nHGq7DtcifGHXj9NQc6hJxH9CsnJqzjn7eZsJUVX5dvl&show_text=true&width=500">Facebook (Avaliação Doramas)</a>
+              <a class="dropdown-item" href="https://www.google.com/search?q=doramas&sxsrf=APwXEddf6AJngCKm6z_IEAIKSXGTXOXpRQ%3A1685555269736&source=hp&ei=RYh3ZLGbK_Hh1sQP1M6x2As&iflsig=AOEireoAAAAAZHeWVe8NQwLZJccJlrZc1OyGVWiMQUrh&oq=dora&gs_lcp=Cgdnd3Mtd2l6EAEYADIHCCMQigUQJzIHCCMQigUQJzILCAAQgAQQsQMQgwEyCAguELEDEIAEMggIABCABBCxAzILCAAQgAQQsQMQgwEyCwgAEIAEELEDEIMBMgsIABCABBCxAxCDATILCAAQgAQQsQMQgwEyCwguEIAEELEDEIMBOgcIIxDqAhAnOgsILhCKBRCxAxCDAToLCAAQigUQsQMQgwE6EQguEIAEELEDEIMBEMcBENEDOgUIABCABDoFCC4QgARQ3gNY7glgmh1oAXAAeACAAXOIAbUDkgEDMC40mAEAoAEBsAEK&sclient=gws-wiz" target="_blank">Google (Doramas)</a>
+              <a class="dropdown-item" href="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FGabiGomes1998%2Fposts%2Fpfbid02ZN3Z8XiqaPKeSYHaHWga2nHGq7DtcifGHXj9NQc6hJxH9CsnJqzjn7eZsJUVX5dvl&show_text=true&width=500" target="_blank">Facebook (Avaliação Doramas)</a>
               
             </div>
           </li>
@@ -81,8 +76,7 @@
         data-target="#carouselExampleControls"
         data-slide="prev"
       >
-       
-      </button>
+       </button>
      
     </div>
 
@@ -108,3 +102,4 @@
     -->
   </body>
 </html>
+
