@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fluxo de Navegação</title>
+  <style>
+    .card {
+      width: 300px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .card button {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .card-deck {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card-deck">
+    <div class="card w-60" style="width: 18rem;">
+      <img src="https://a-static.mlcdn.com.br/800x560/controle-xbox-one-original-joystick-com-fio-pc-usb-feir/lojadegames123/8296091cc4bd11ed96d04201ac18502f/e8fbf3686ae7df7df8d665b4941f0cbb.jpeg" width="300" height="250">
+      <div class="card-body">
+        <h5 class="card-title">Controle Xbox-One Original Joystick Com Fio Pc, Usb-Feir</h5>
+        <p class="card-text">Preço: 199,90</p>
+        <a href="http://127.0.0.1:5500/joystick.html" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
+    <div class="card w-60" style="width: 18rem;">
+      <img src="https://m.media-amazon.com/images/I/91UhBLrK9VL._AC_SY879_.jpg" width="150" height="200">
+      <div class="card-body">
+        <h5 class="card-title">Panasonic UM-3SHSL8P6, Pilha Comum Linha Super Hyper Proteção Antivazamento, pacote de 8</h5>
+        <p class="card-text">Preço: 11,61</p>
+        <a href="http://127.0.0.1:5500/pilha.html" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
+    <!-- Adicione os outros produtos aqui -->
+
+  </div>
+
+  <script>
+    function abrirProduto(id) {
+      var url = "detalhes.html?id=" + id;
+      window.open(url, "_blank");
+    }
+  </script>
+</body>
+</html>
