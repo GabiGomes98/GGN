@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Detalhes do Produto 1</title>
+  </head>
+  <body>
+    <h1>Detalhes do Produto 1</h1>
+
+    <div id="produto-container">
+      <!-- Os detalhes do produto serão preenchidos dinamicamente aqui -->
+      <div>
+        <p><b>Nome:</b> Produto 1</p>
+        <p><b>Preço:</b> R$ 199,90</p>
+        <p><b>Descrição:</b> Controle Xbox-One Original Joystick Com Fio Pc, Usb-Feir</p>
+      </div>
+    </div>
+
+    <div id="produto-detalhes">
+      <!-- Os detalhes do produto serão preenchidos dinamicamente aqui -->
+      <div>
+        <h1>Informações do Produto 1</h1>
+        <p>
+          Com design ergonômico para maior conforto, o Controle Feir - XBOX-ONE é a escolha perfeita para os fãs de games. Pois conta com o que de melhor tem no mercado,
+          para te proporcionar a melhor e mais precisa experiência de jogo. Equipado com 12 botões, sendo 4 de ação e 4 para funções, 2 joysticks analógicos, botões sensíveis
+          à pressão, 2 motores internos para máxima vibração e botão digital de 8 direções.
+        </p>
+        <p>
+          É de fácil instalação e operação, possui conexão via porta USB e cabo de 2.10 metros. Compre agora mesmo o seu e transforme a sua forma de jogar. Pode ser usado
+          com um Xbox-One e também com um PC.
+        </p>
+        <p><b>Especificações gerais:</b></p>
+        <p>
+          Voltagem De Trabalho: 5v<br>
+          Corrente De Trabalho: 100ma<br>
+          Possui 4 LEDs que indicam o player<br>
+          Suporte Para Vibração Dupla P2 Para Fone (Apenas No Xbox-One)<br>
+          Cabo 2,10mt - Marca: FEIR<br>
+          Compatibilidade: XBOX-One e PC<br>
+          Conteúdo da embalagem: 1 x Controle com Fio Para Xbox-One
+        </p>
+      </div>
+    </div>
+
+    <script>
+      // Função para obter o valor do parâmetro da URL pelo nome
+      function obterParametrosDaURL() {
+        var url = window.location.href;
+        var parametros = url.split("?")[1];
+        var parametrosDivididos = parametros.split("&");
+        var parametrosObjeto = {};
+
+        for (var i = 0; i < parametrosDivididos.length; i++) {
+          var parametro = parametrosDivididos[i].split("=");
+          var chave = parametro[0];
+          var valor = parametro[1];
+          parametrosObjeto[chave] = valor;
+        }
+
+        return parametrosObjeto;
+      }
+
+      // Função para buscar os detalhes do produto com base no ID
+      function buscarProdutoPorId(id) {
+        // Aqui você pode realizar uma chamada Ajax, buscar os detalhes do produto em uma API, banco de dados, etc.
+        // Neste exemplo, usaremos um objeto com informações estáticas para cada ID de produto.
+        var produtos = {
+          1: {
+            nome: "Produto 1",
+            preco: "R$ 199,90",
+            descricao: "Controle Xbox-One Original Joystick Com Fio Pc, Usb-Feir",
+            detalhesTitulo: "Informações do Produto",
+            detalhes:
+              "Com design ergonômico para maior conforto o Controle Feir - XBOX-ONE é a escolha perfeita para os fãs de games.\n\n" +
+              "Pois conta com o que de melhor tem no mercado, para te proporcionar a melhor e mais precisa experiência de jogo.\n" +
+              "Equipado com 12 botões, sendo 4 de ação e 4 para funções, 2 joysticks analógicos, botões sensíveis à pressão, 2 motores internos para máxima vibração e botão digital de 8 direções.\n\n" +
+              "É de fácil instalação e operação, possui conexão via porta USB e cabo de 2.10 metros.\n" +
+              "Compre agora mesmo o seu e transforme a sua forma de jogar.\n\n" +
+              "Pode ser usado com um Xbox-One e também com um PC o Xbox-One ou PC\n\n" +
+              "Especificações gerais:\n" +
+              "Voltagem De Trabalho: 5v\n" +
+              "Corrente De Trabalho: 100ma\n" +
+              "Possui 4 Leds Que Indica O Player\n" +
+              "Suporte Para Vibração Dupla P2 Para Fone ( Apenas No Xbox-One )\n" +
+              "Cabo 2,10mt - Marca: FEIR\n" +
+              "Compatibilidade: XBOX-One e PC\n" +
+              "Conteúdo da embalagem: 1 x Controle com Fio Para Xbox-one",
+          },
+        };
+
+        return produtos[id];
+      }
+
+      // Função para exibir os detalhes do produto na página
+      function exibirDetalhesDoProduto() {
+        var parametros = obterParametrosDaURL();
+        var id = parametros.id;
+        var produto = buscarProdutoPorId(id);
+
+        if (produto) {
+          var produtoContainer = document.getElementById("produto-container");
+          var produtoHTML =
+            "<h2>Controle</h2>" +
+            "<span>" + produto.nome + "</span>" +
+            "<span>Xbox-One Original Joystick Com Fio Pc, Usb-Feir</span>" +
+            "<span>" + produto.preco + "</span>" +
+            "<span>" + produto.descricao + "</span>";
+          produtoContainer.innerHTML = produtoHTML;
+
+          var produtoDetalhes = document.getElementById("produto-detalhes");
+          var detalhesHTML =
+            "<h1>" + produto.detalhesTitulo + "</h1>" +
+            "<p>" + produto.detalhes + "</p>";
+          produtoDetalhes.innerHTML = detalhesHTML;
+        }
+      }
+
+      // Chamada para exibir os detalhes do produto quando a página é carregada
+      exibirDetalhesDoProduto();
+    </script>
+  </body>
+</html>
