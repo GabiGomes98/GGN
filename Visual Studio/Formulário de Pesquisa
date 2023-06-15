@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Geral</title>
+</head>
+<body>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <for action="cadastro.html" method="get"></for>
+<form>
+    <fieldset><legend><h2>Pesquisa</h2></legend>
+    <fieldset><legend><h3>Dados Pessoais</h3></legend>
+
+        <label for="name"class="form_label">Nome:</label><br>
+        <input type="text" name="name" class="form_input" id="name" placeholder="Digite seu nome completo"><br><br>
+
+    <span class="legenda">Sexo:</span><br><br>
+
+    <input type="radio" class="form_new_input" name="sexo" id="masculino" required="required">
+    <label for="masculino" class="radio_label form_label"><span class="radio_new_btn"></span>Masculino</label><br>
+
+    <input type="radio" class="form_new_input" name="sexo" id="feminino" required="required">
+    <label for="feminino" class="radio_label form_label"><span class="radio_new_btn"></span>Feminino</label><br><br>
+
+    </fieldset><br>
+
+
+    <fieldset><legend><h3>Localização:</h3></legend>
+        <label for="email">E-mail:</label><br>
+        <input type="email" name="email" class="form_input" id="email" placeholder="seuemail@mail.com"><br><br>
+
+    <fieldset><legend><h3>Faixa Etária:</h3></legend>
+    <input type="radio" name="idade" id="idade">
+    <label for="idade">até 20 anos.</label><br>
+    <input type="radio" name="idade" id="idade">
+    <label for="idade">mais de 20 e até 30 anos.</label><br>
+    <input type="radio" name="idade" id="idade">
+    <label for="idade">mais de 30 e até 40 anos.</label><br>
+    <input type="radio" name="idade" id="idade">
+    <label for="idade">mais de 40 e até 50 anos.</label><br>
+    <input type="radio" name="idade" id="idade">
+    <label for="idade">mais de 50 e até 60 anos.</label><br>
+    <input type="radio" name="idade" id="idade">
+    <label for="idade">mais de 60 anos.</label><br><br>
+  </fieldset><br>
+
+  <fieldset>
+    <legend><h3>Estilos de Séries:</h3></legend>
+    <input type="checkbox" name="serie" id="serie1">
+    <label for="serie1">Drama.</label><br>
+    <input type="checkbox" name="serie" id="serie2">
+    <label for="serie2">Comédia.</label><br>
+    <input type="checkbox" name="serie" id="serie3">
+    <label for="serie3">Ação.</label><br>
+    <input type="checkbox" name="serie" id="serie4">
+    <label for="serie4">Suspense.</label><br>
+    <input type="checkbox" name="serie" id="serie5">
+    <label for="serie5">Ficção Científica.</label><br>
+    <input type="checkbox" name="serie" id="serie6">
+    <label for="serie6">Animação.</label><br>
+    <input type="checkbox" name="serie" id="serie7">
+    <label for="serie7">Documentário.</label><br><br>
+</fieldset><br>
+
+<fieldset>
+    <legend><h3>Estilos de Música:</h3></legend>
+    <input type="checkbox" name="musica" id="musica1">
+    <label for="musica1">Rock.</label><br>
+    <input type="checkbox" name="musica" id="musica2">
+    <label for="musica2">Pop.</label><br>
+    <input type="checkbox" name="musica" id="musica3">
+    <label for="musica3">Rap.</label><br>
+    <input type="checkbox" name="musica" id="musica4">
+    <label for="musica4">Eletrônica.</label><br>
+    <input type="checkbox" name="musica" id="musica5">
+    <label for="musica5">Sertanejo.</label><br>
+    <input type="checkbox" name="musica" id="musica6">
+    <label for="musica6">Hip Hop.</label><br>
+    <input type="checkbox" name="musica" id="musica7">
+    <label for="musica7">Clássica.</label><br>
+    <input type="checkbox" name="musica" id="musica8">
+    <label for="musica8">Outros estilos de música:</label><br>
+    <input type="text" name="outros-estilos" id="outros-estilos-text"><br><br>
+</fieldset><br>
+
+    <input type="hidden" name="acao" value="enviar">
+    <button type="submit" name="Submit" class="submit_btn">CADASTRAR</button>
+    <input type="reset" value="LIMPAR">
+    
+</fieldset>
+    
+    </fieldset><br><br>
+</form>
+     
+    
+</body>
+</html>
