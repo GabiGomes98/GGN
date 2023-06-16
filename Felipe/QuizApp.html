@@ -2,12 +2,40 @@
 <html>
 <head>
   <title>Quiz App</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Quiz App</h1>
+  <style>
+    body {
+      background-color: aquamarine;
+    }
 
-  <div id="quiz-container">
-    <div id="question"></div>
+    #quiz-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    #quiz-container div {
+      border: 1px solid white;
+      background-color: white;
+      padding: 20px;
+      margin-bottom: 10px;
+      text-align: center;
+      font-size: 30px;
+    }
+
+    .center-button {
+      display: flex;
+      justify-content: center;
+    }
+  </style>
+  
+    <div id="quiz-container">
+    <h1>Quiz App</h1>
+  <div id="question"></div>
     <div id="options">
       <input type="radio" name="answer" value="A"> <span id="optionA"></span><br>
       <input type="radio" name="answer" value="B"> <span id="optionB"></span><br>
@@ -102,12 +130,12 @@
           C: "Idade dos Metais",
           D: "Idade Média"
         },
-        answer: "D"
+        answer: "B"
       },
       {
         question: "Questão 09: Qual era o nome de Aleijadinho?",
         options: {
-          A: "Alexandrino Francisco Lisboa",
+          A: "Antônio Francisco Lisboa",
           B: "Francisco Antônio Lisboa",
           C: "Manuel Francisco Lisboa",
           D: "Alex Francisco Lisboa"
@@ -178,6 +206,8 @@
 
     // Iniciar o jogo
     loadQuestion();
-  </script>
+
+    </script>
 </body>
 </html>
+
