@@ -142,15 +142,6 @@
       optionBElement.textContent = current.options.B;
       optionCElement.textContent = current.options.C;
       optionDElement.textContent = current.options.D;
-
-      // Habilitar o botão "Próximo" somente quando uma resposta for selecionada
-      var nextButton = document.getElementById("next-button");
-      nextButton.disabled = true;
-    }
-
-    function selectAnswer() {
-      var nextButton = document.getElementById("next-button");
-      nextButton.disabled = false;
     }
 
     function nextQuestion() {
