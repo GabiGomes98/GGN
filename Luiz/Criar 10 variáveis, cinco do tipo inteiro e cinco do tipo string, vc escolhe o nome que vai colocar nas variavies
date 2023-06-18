@@ -1,0 +1,13 @@
+int numero1 = 10;
+int numero2 = 30;
+int numero3 = 50;
+int numero4 = 70;
+int numero5 = 90;
+
+
+string nome1 = "Miguel";
+string nome2 = "Gabriel";
+string nome3 = "Denise";
+string nome4 = "Viviana";
+string nome5 = "Erick";
+
