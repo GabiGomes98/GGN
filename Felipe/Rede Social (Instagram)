@@ -1,106 +1,99 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>Minha Rede Social</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<style>
-    /* Estilo para o cabeçalho */
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-  }
-  
-  /* Estilo para o título da rede social */
-  header h1 {
-    margin: 0;
-  }
-  
-  /* Estilo para a navegação */
-  nav ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  nav ul li {
-    display: inline-block;
-    margin-right: 10px;
-  }
-  
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  /* Estilo para o conteúdo principal */
-  main {
-    padding: 20px;
-  }
-  
-  /* Estilo para as seções */
-  section {
-    margin-bottom: 20px;
-  }
-  
-  /* Estilo para os títulos das seções */
-  section h2 {
-    margin-top: 0;
-  }
-  
-  /* Estilo para os posts */
-  .post {
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    padding: 10px;
-    margin-bottom: 10px;
-  }
-  
-  .post img {
-    width: 100%;
-    max-height: 300px;
-    object-fit: cover;
-  }
-  
-  /* Estilo para o rodapé */
-  footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-  }
-  
-</style>
-<body>
-  <header>
-    <h1>Minha Rede Social</h1>
-    <nav>
-      <ul>
-        <li><a href="#">Página Inicial</a></li>
-        <li><a href="#">Explorar</a></li>
-        <li><a href="#">Perfil</a></li>
-      </ul>
-    </nav>
-  </header>
+ 
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Instaclone</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <main>
-    <section>
-      <h2>Feed de Posts</h2>
-      <div class="post">
-        <img src="https://m.media-amazon.com/images/I/71hEb5HHBTL.png" alt="Imagem do post">
-        <p>Doraemon é um mangá criado por Fujiko F. Fujio que, mais tarde, foi transformado em um anime de sucesso. A série é sobre um gato robótico chamado Doraemon que voltou dois séculos no passado para ajudar um estudante desastrado: Nobita Nobi.</p>
-      </div>
-      <div class="post">
-        <img src="https://www.rbsdirect.com.br/filestore/2/5/0/8/9/8/2_8c183f2db7b2e28/2898052_6522c6fb643c93b.jpg?w=300" alt="Imagem do post">
-        <p>Inteligente, sarcástica e apática, Wandinha Addams pode estar meio morta por dentro, mas na Escola Nunca Mais ela vai fazer amigos, inimigos e investigar assassinatos.</p>
-      </div>
-    </section>
-  </main>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style-instagran.css">
+  </head>
+  <body>
+      <div class="row">
+        <div class="col-2">
+          <div class="box-logo-instagran">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhLi21drZWgtKW9OUETIqOMlsCiFa6IlGKfF9P93uotAmYfSuKZSSH7_JmsZTuItKsDUk&usqp=CAU"alt="logo instagran">
+          </div><br>
+          <div class="box-menu-principal-web">
+            <div class="titulo-link">
+              <span id="first-page">Página inicial</span>
+            </div><br> 
+            <div class="titulo-link">
+              <span>Pesquisar</span>
+            </div><br> 
+            <div class="titulo-link">
+              <span>Explorar</span>
+            </div><br>
+            <div class="titulo-link">
+              <span>Reels</span>
+            </div><br> 
+            <div class="titulo-link">
+              <span>Mensagem</span>
+            </div><br>  
+            <div class="titulo-link">
+              <span>Notificações</span>
+            </div><br>  
+              
+          </div>
+          
+        </div>
+        <div class="col-8">
+          <div class="box-stories">
+            <div class="stories-timeline">
+              <div class="box-foto-perfil">
+                <img class="image-stories-perfil" src="https://blog.nextfit.com.br/wp-content/uploads/2023/04/cropped-Graziella-96x96.webp" alt="foto perfil stories">
+                
+                <img class="image-stories-perfil" src="https://blog.americanasmarketplace.com.br/wp-content/uploads/2021/09/avatar_user_52_1632746310-96x96.png" alt="foto perfil stories">
+                
+                <img class="image-stories-perfil" src="https://files.tecnoblog.net/wp-content/uploads/2021/12/bruno-gall-de-blasi-perfil-96x96.jpg" alt="foto perfil stories">
+                
+                <img class="image-stories-perfil" src="https://secure.gravatar.com/avatar/746a0338c5a62a4a777663d865a74955?s=96&d=mm&r=g" alt="foto perfil stories">
+                
+              </div>
+             <br>
+             <br>
+             <br>
+              <span>Unifaat</span>
+            </div>
+            <div class="stories-timeline">
+              <div class="box-foto-perfil">
+                <img class="image-stories-perfil" src="https://www.atibaiasp.com.br/wp-content/uploads/2020/11/UNIFAAT1_121120.jpg" alt="foto perfil stories">
+              </div>
+             <br>
+              <span>Gu Weiyi & Situ Mo</span>
+            </div>
+            <div class="stories-timeline">
+              <div class="box-foto-perfil">
+                <img class="image-stories-perfil" src="https://e1.pxfuel.com/desktop-wallpaper/621/226/desktop-wallpaper-put-your-head-on-my-shoulde-gu-wei-yi-%E2%9D%A4%EF%B8%8F-si-tu-mo-gu-weiyi-thumbnail.jpg" alt="foto perfil stories">
+              </div>
+             <br>
+              <span>Doraemon</span>
+            </div>
+            <div class="stories-timeline">
+              <div class="box-foto-perfil">
+                <img class="image-stories-perfil" src="https://www.jwave.com.br/wp-content/uploads/2015/10/Doraemon-doraemon-38532277-640-360.jpg" alt="foto perfil stories">
+              </div>
+             <br>
+              <span>Wandinha Addams</span>
+            </div>
+            <div class="stories-timeline">
+              <div class="box-foto-perfil">
+                <img class="image-stories-perfil" src="hhttps://s2-techtudo.glbimg.com/vUL3d6D5nNVWAxP7Fcx1OoeYtP8=/0x0:1200x700/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2022/N/8/EcyBkcRxOVCRiCWZoazw/wednesday.jpg" alt="foto perfil stories">
+              </div>
+             
+              <span>Gabriela Gomes</span>
+            </div>
+          </div>
 
-  <footer>
-    <p>&copy; 2023 Minha Rede Social. Todos os direitos reservados.</p>
-  </footer>
-</body>
+
+        </div>
+        <div class="col-2">3</div>
+      </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>
