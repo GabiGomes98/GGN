@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Minha Rede Social</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<style>
+    /* Estilo para o cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Estilo para o título da rede social */
+  header h1 {
+    margin: 0;
+  }
+  
+  /* Estilo para a navegação */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Estilo para o conteúdo principal */
+  main {
+    padding: 20px;
+  }
+  
+  /* Estilo para as seções */
+  section {
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para os títulos das seções */
+  section h2 {
+    margin-top: 0;
+  }
+  
+  /* Estilo para os posts */
+  .post {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .post img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+  }
+  
+  /* Estilo para o rodapé */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+</style>
+<body>
+  <header>
+    <h1>Minha Rede Social</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Página Inicial</a></li>
+        <li><a href="#">Explorar</a></li>
+        <li><a href="#">Perfil</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Feed de Posts</h2>
+      <div class="post">
+        <img src="https://m.media-amazon.com/images/I/71hEb5HHBTL.png" alt="Imagem do post">
+        <p>Doraemon é um mangá criado por Fujiko F. Fujio que, mais tarde, foi transformado em um anime de sucesso. A série é sobre um gato robótico chamado Doraemon que voltou dois séculos no passado para ajudar um estudante desastrado: Nobita Nobi.</p>
+      </div>
+      <div class="post">
+        <img src="https://www.rbsdirect.com.br/filestore/2/5/0/8/9/8/2_8c183f2db7b2e28/2898052_6522c6fb643c93b.jpg?w=300" alt="Imagem do post">
+        <p>Inteligente, sarcástica e apática, Wandinha Addams pode estar meio morta por dentro, mas na Escola Nunca Mais ela vai fazer amigos, inimigos e investigar assassinatos.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Minha Rede Social. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
