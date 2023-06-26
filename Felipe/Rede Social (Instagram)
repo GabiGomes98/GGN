@@ -1,4 +1,3 @@
- 
 <!doctype html>
 <html lang="en">
   <head>
@@ -12,7 +11,7 @@
     <link rel="stylesheet" href="./css/style-instagran.css">
   </head>
   <body>
-      <div class="row">
+        <div class="row">
         <div class="col-2">
           <div class="box-logo-instagran">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhLi21drZWgtKW9OUETIqOMlsCiFa6IlGKfF9P93uotAmYfSuKZSSH7_JmsZTuItKsDUk&usqp=CAU"alt="logo instagran">
@@ -35,7 +34,19 @@
             </div><br>  
             <div class="titulo-link">
               <span>Notificações</span>
+            </div><br>
+            <div class="titulo-link">
+              <span>Criar</span>
+            </div><br>    
+            <div class="titulo-link">
+              <span>Perfil</span>
             </div><br>  
+            <br>
+            <br>            
+            <div class="titulo-link">
+              <span>Mais</span>
+            </div><br>  
+                
               
           </div>
           
@@ -44,54 +55,37 @@
           <div class="box-stories">
             <div class="stories-timeline">
               <div class="box-foto-perfil">
-                <img class="image-stories-perfil" src="https://blog.nextfit.com.br/wp-content/uploads/2023/04/cropped-Graziella-96x96.webp" alt="foto perfil stories">
+                <img src="Captura de tela 2023-06-25 192635.png">
+            </body>
                 
-                <img class="image-stories-perfil" src="https://blog.americanasmarketplace.com.br/wp-content/uploads/2021/09/avatar_user_52_1632746310-96x96.png" alt="foto perfil stories">
-                
-                <img class="image-stories-perfil" src="https://files.tecnoblog.net/wp-content/uploads/2021/12/bruno-gall-de-blasi-perfil-96x96.jpg" alt="foto perfil stories">
-                
-                <img class="image-stories-perfil" src="https://secure.gravatar.com/avatar/746a0338c5a62a4a777663d865a74955?s=96&d=mm&r=g" alt="foto perfil stories">
-                
-              </div>
+                </div>
              <br>
-             <span>Unifaat</span>
+             <img src="Captura de tela 2023-06-25 194617.png" alt="#">
             </div>
             <div class="stories-timeline">
               <div class="box-foto-perfil">
                 <img class="image-stories-perfil" src="https://www.atibaiasp.com.br/wp-content/uploads/2020/11/UNIFAAT1_121120.jpg" alt="foto perfil stories">
               </div>
              <br>
-              <span>Gu Weiyi & Situ Mo</span>
+              <img src="Captura de tela 2023-06-26 134402.png" alt="#">
             </div>
             <div class="stories-timeline">
               <div class="box-foto-perfil">
-                <img class="image-stories-perfil" src="https://e1.pxfuel.com/desktop-wallpaper/621/226/desktop-wallpaper-put-your-head-on-my-shoulde-gu-wei-yi-%E2%9D%A4%EF%B8%8F-si-tu-mo-gu-weiyi-thumbnail.jpg" alt="foto perfil stories">
+                <img class="image-stories-perfil" src="Finally,Cheers!_2023_06_24_12_05_26.png" alt="foto perfil stories" width="500" height="500">
               </div>
              <br>
-              <span>Doraemon</span>
-            </div>
-            <div class="stories-timeline">
-              <div class="box-foto-perfil">
-                <img class="image-stories-perfil" src="https://www.jwave.com.br/wp-content/uploads/2015/10/Doraemon-doraemon-38532277-640-360.jpg" alt="foto perfil stories">
-              </div>
-             <br>
-              <span>Wandinha Addams</span>
-            </div>
-            <div class="stories-timeline">
-              <div class="box-foto-perfil">
-                <img class="image-stories-perfil" src="hhttps://s2-techtudo.glbimg.com/vUL3d6D5nNVWAxP7Fcx1OoeYtP8=/0x0:1200x700/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2022/N/8/EcyBkcRxOVCRiCWZoazw/wednesday.jpg" alt="foto perfil stories">
-              </div>
-             
-              <span>Gabriela Gomes</span>
+             <img src="Captura de tela 2023-06-26 141431.png" style="position: absolute; top: 100px; left: 700px;">                
+                             
             </div>
           </div>
-
-
+          
         </div>
-        <div class="col-2">3</div>
+        <div class="col-2"></div>
       </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>
+        
+           
